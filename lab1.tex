@@ -1,0 +1,155 @@
+\documentclass[a4paper,12pt]{article} % добавить leqno в [] для нумерации слева
+
+%%% Работа с русским языком
+\usepackage{cmap}					% поиск в PDF
+\usepackage{mathtext} 				% русские буквы в формулах
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage[english,russian]{babel}	% локализация и переносы
+
+%%% Дополнительная работа с математикой
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
+\usepackage{icomma} % "Умная" запятая: $0,2$ --- число, $0, 2$ --- перечисление
+
+%% Номера формул
+%\mathtoolsset{showonlyrefs=true} % Показывать номера только у тех формул, на которые есть \eqref{} в тексте.
+
+%% Шрифты
+\usepackage{euscript}	 % Шрифт Евклид
+\usepackage{mathrsfs} % Красивый матшрифт
+
+%% Свои команды
+\DeclareMathOperator{\sgn}{\mathop{sgn}}
+
+%%% Заголовок
+\author{Лабораторная работа №1}
+\title{Математика в \LaTeX}
+\date{\today}
+
+
+\begin{document} % Конец преамбулы, начало текста.
+	
+	\maketitle % печатает заголовок, имя автора и дату
+	
+	\section{Первое задание.}
+	Пример 1. Найти 
+	$\displaystyle \int{\frac{x+\sqrt[3]{x^2}+\sqrt[6]{x}}{x\left(1+\sqrt[3]{x}\right)} dx }$.
+	
+	$\blacktriangle$
+	Подынтегральная функция является рациональной относительно переменных
+	$x_1=x$, $x_2=x^{1/3}$, $x_3=x^{1/6}$.
+	Данный интеграл имеет вид
+	$\left(1\right)$,
+	причем
+	$n=3$, $p_1=1$, $p_2=1/3$, $p_3=1/6$, $a=d=1$, $b=c=0$.
+	Для рациональных чисел 
+	$p_1=1$, $p_2=1/3$, $p_3=1/6$
+	общий знаменатель
+	$m=6$.
+	Следовательно, нужно применить подстановку
+	$x=t^6$.
+	Применяя эту подстановку, получаем
+	\begin{multline*}
+		\displaystyle \int{\frac{x+\sqrt[3]{x^2}+\sqrt[6]{x}}{x\left(1+\sqrt[3]{x}\right)}dx}=6\int{\frac{t^6+t^4+t}{t^6\left(1+t^2\right)}t^5dt}=6 \int{ \frac{t^5+t^3+1}{1+t^2} dt}=\\
+		=6 \int {t^3 dt + 6} \int{\frac{dt}{1+t^2}}=\frac{3}{2}\sqrt[3]{x^2}+6\arcctg{\sqrt[6]{x}+C.}
+	\end{multline*}
+	$\blacktriangle$
+	
+	Пример 2. Найти
+	$\int\frac{dx}{\sqrt[3]{\left(2+x\right) \left(2-x\right)}}$.
+	
+	$\blacktriangle$
+	С помощью элементарных преобразований интеграл приводится к виду
+	$\left(1\right)$:
+	$$\int \sqrt[3]{\frac{2-x}{2+x}} \frac{dx}{\left(2-x\right)^2}.$$
+	Подынтегральная функция является рациональной относительно переменных
+	$$x_1=x, \quad x_2=\left(\frac{2-x}{2+x}\right)^{1/3}.$$
+	Следовательно, в данном случае
+	$n=1$, $p_1=1/3$, $a=-1$, $b=2$, $c=1$, $d=2$.
+	Поэтому полагаем
+	$$\frac{2-x}{2+x}=t^3,$$
+	откуда находим
+	$$x=2\frac{1-t^3}{1+t^3}, \quad dx=-12\frac{t^2dt}{\left(1+t^3\right)^2}, \quad \frac{1}{2-x}=\frac{1+t^3}{4t^3}$$
+	Таким образом,
+	\begin{multline*}
+	\int \sqrt[3]{\frac{2-x}{2+x}} \frac{dx}{\left(2-x\right)^2}=-12\int\frac{\left(t^3+1\right)^2 t^3 dt}{16 t^6 \left(t^3+1\right)^2}=-\frac{3}{4}\int\frac{dt}{t^3}=\\
+	= \frac{3}{8}\sqrt[3]{\left(\frac{2+x}{2-x}\right)^2}+C.
+	\end{multline*}
+	$\blacktriangle$
+	
+	\section{Второе задание.}
+	Определение
+	
+	Пусть задано отображение 
+	\textbf{u}: $R \longrightarrow R$,
+	\textbf{u}=$\left(u_1,...,u_m\right)^T, u_i=u_i\left(x_1,...,x_n\right),i=1,...,m,$
+	имеющее в некоторой точке $x$ все частные производные первого порядка. Матрица $J$, составленная из частных производных этих функций в точке $x$, называется матрицей Якоби данной системы функций.
+	$$J\left(x \right)=\begin{pmatrix} 
+		\dfrac{\partial u_1}{\partial x_1} \left(x\right) & \dfrac{\partial u_1}{\partial x_2} \left(x\right) & \cdots & \dfrac{\partial u_1}{\partial x_n} \left(x\right)\\
+		\dfrac{\partial u_2}{\partial x_1} \left(x\right) & \dfrac{\partial u_2}{\partial x_2} \left(x\right) & \cdots & \dfrac{\partial u_2}{\partial x_n} \left(x\right)\\
+		\vdots & \vdots & \ddots & \vdots \\
+		\dfrac{\partial u_m}{\partial x_1} \left(x\right) & \dfrac{\partial u_m}{\partial x_2} \left(x\right) & \cdots & \dfrac{\partial u_m}{\partial x_n} \left(x\right)\\
+	\end{pmatrix}		
+	$$
+	
+	
+	Иными словами матрица Якоби является производной векторной функции от векторного аргумента.
+	
+	
+	
+	\section{Вопросы.}
+	
+	\subsection{Проценты.}
+	Зачем так много процентов в строке 3? Это стилистический окрас?
+	
+	\subsection{marketitle.}
+	maketitle, что это?
+	
+	\subsection{section.}
+	section не ставит точку после цифры?
+	
+	\subsection{Пробелы.}
+	Пробелы в формуле не учитываются, так? Это строчная формула?
+	
+	$1+2+3$
+	
+	$ 1 + 2 + 3 $
+	
+	\subsection{Отличия.}
+	В чем отличие выключной формулы от строчной?
+	
+	Это выключная формула:
+	
+	\[ 2+      2=  4 \]
+	
+	А тоже выключная формула?
+	
+	$$2+2=4$$
+	
+	Особенность этого вида в том, что стилистически она отделяется от остального текста отступами к центру и находится в середине?
+	
+	\subsection{Как это понять?}
+		\begin{equation}\label{eq:firstEquationInMyLife}
+			2+2=4
+		\end{equation}
+		если номер не нужен его легко убрать
+		\begin{equation*}
+			2+2=4
+		\end{equation*}
+	
+	\subsection{Ссылки}
+	Ничего не понятно.
+	
+	
+	Поверьте! Формула \eqref{eq:firstEquationInMyLife} на стр. \pageref{eq:firstEquationInMyLife} не единственная формула, которую я знаю.
+	
+	\ref{eq:firstEquationInMyLife} --- просто ссылка
+	
+	\subsection{Запятые}
+	В чем разница между 
+	$0{,}5$
+	$0,   5$  $(0, 5)$. % умная запятая
+	Что такое умная запятая?
+	
+	
+\end{document} % Конец текста.
