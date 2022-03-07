@@ -1,0 +1,189 @@
+\documentclass[a4paper,12pt]{article} % добавить leqno в [] для нумерации слева
+
+%%% Работа с русским языком
+\usepackage{cmap}					% поиск в PDF
+\usepackage{mathtext} 				% русские буквы в формулах
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage[english,russian]{babel}	% локализация и переносы
+
+%%% Дополнительная работа с математикой
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
+\usepackage{icomma} % "Умная" запятая: $0,2$ --- число, $0, 2$ --- перечисление
+
+%% Номера формул
+%\mathtoolsset{showonlyrefs=true} % Показывать номера только у тех формул, на которые есть \eqref{} в тексте.
+
+%% Шрифты
+\usepackage{euscript}	 % Шрифт Евклид
+\usepackage{mathrsfs} % Красивый матшрифт
+
+%% Свои команды
+\DeclareMathOperator{\sgn}{\mathop{sgn}}
+
+%%% Заголовок
+\author{Ссылки, таблицы и формулы в несколько строк}
+\title{Лабораторная работа №2}
+\date{\today}
+
+
+\begin{document} % Конец преамбулы, начало текста.
+	
+	\maketitle % печатает заголовок, имя автора и дату
+	
+	
+	
+	
+	
+	\section{Первое задание}
+	
+	\section{Второе задание}
+	
+	\section{Третье задание}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section{Четвертое задание. Нумерация и системы. 1}
+	5. Семи неравенствам
+	\begin{equation}
+		2x_1 + 3x_2 \leq 6,
+	\end{equation}
+
+	\begin{equation}
+		x_1 + x_2 \leq 2, 
+	\end{equation}
+
+	\begin{equation}
+		-x_1 - 3x_2 \leq 3,		
+	\end{equation}
+
+	\begin{equation}
+		2x_1 \leq 3,		
+	\end{equation}
+
+	\begin{equation}
+		-x_1 \leq 3,
+	\end{equation}
+
+	\begin{equation}
+		-3x_1 + 7x_2 \leq 21,		
+	\end{equation}
+
+	\begin{equation}
+		x_1 - 3x_2 \leq 3		
+	\end{equation}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section{Пятое задание}
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section{Шестое задание. Стандартные длинные формулы}
+	С другой стороны известно, что монотонно возрастающая ограниченная последовательность чисел имеет конечный предел. Следовательно, если мы докажем, что последовательность чисел $x_n$ ограничена, то будет доказана и содимость ряда $\left( 26 \right)$. Положим
+	\begin{multline*}
+		y_{2n} = 1 - 
+		\frac{1}{2^ \alpha} + 
+		\frac{1}{3^ \alpha} -
+		\frac{1}{4^ \alpha} +
+		\frac{1}{5^ \alpha} -
+		\frac{1}{6^ \alpha} + 
+		\dots \\
+		\dots 
+		\frac{1}{ \left(2n - 1 \right)^ \alpha} -
+		\frac{1}{ \left(2n \right)^ \alpha}.
+	\end{multline*}
+	Так как
+	\begin{multline*}
+		y_{2n} = 1 - 
+		\left( 
+			\frac{1}{2^ \alpha} - 
+			\frac{1}{3^ \alpha}
+		\right) -
+		\left(
+			\frac{1}{4^ \alpha} -
+			\frac{1}{5^ \alpha} 
+		\right) - 
+		\dots - \\
+		- \left(
+			\frac{1}{ \left(2n - 2 \right)^ \alpha} -
+			\frac{1}{ \left(2n - 1 \right)^ \alpha} 
+		\right) -
+		\frac{1}{ \left(2n \right)^ \alpha}.
+	\end{multline*}
+	то (числа в каждой скобке положительны)
+	$$y_{2n} < 1.$$
+	С другой стороны,
+	\begin{multline*}
+		y_{2n} = 1 - 
+		\frac{1}{2^ \alpha} + 
+		\frac{1}{3^ \alpha} -
+		\frac{1}{4^ \alpha} +
+		\frac{1}{5^ \alpha} -
+		\frac{1}{6^ \alpha} + 
+		\dots + \\
+		+ \frac{1}{ \left(2n - 1 \right)^ \alpha} -
+		\frac{1}{ \left(2n \right)^ \alpha} =
+		\left(
+			1 + 
+			\frac{1}{2^ \alpha} + 
+			\frac{1}{3^ \alpha} +
+			\frac{1}{4^ \alpha} +
+			\frac{1}{5^ \alpha} +
+		\right. \\
+		\left.
+			+ \frac{1}{6^ \alpha} +
+			\dots +
+			\frac{1}{ \left(2n - 1 \right)^ \alpha} +
+			\frac{1}{ \left(2n \right)^ \alpha}
+		\right) - \\
+		- 2
+		\left(
+			\frac{1}{2^ \alpha} + 
+			\frac{1}{4^ \alpha} +
+			\frac{1}{6^ \alpha} +
+			\dots +
+			\frac{1}{ \left(2n \right)^ \alpha}
+		\right) = \\
+		= \left(
+			1 + 
+			\frac{1}{2^ \alpha} + 
+			\frac{1}{3^ \alpha} +
+			\frac{1}{4^ \alpha} +
+			\frac{1}{5^ \alpha} +
+			\frac{1}{6^ \alpha} +
+			\dots + 
+		\right. \\
+		\left.
+			+ \frac{1}{ \left(2n - 1 \right)^ \alpha} +
+			\frac{1}{ \left(2n \right)^ \alpha}
+		\right)
+		- \frac{2}{2^ \alpha}
+		\left(
+		1 + 
+		\frac{1}{2^ \alpha} + 
+		\frac{1}{3^ \alpha} +
+		\dots +
+		\frac{1}{n^ \alpha}
+		\right).
+	\end{multline*}
+	Так как 
+	$x_n = 1 + 
+	\dfrac{1}{2^ \alpha} + 
+	\dfrac{1}{3^ \alpha} +
+	\dots +
+	\dfrac{1}{n^ \alpha},$
+	то 
+	$$y_{2n} = x_{2n} - \dfrac{2}{2^ \alpha} x_n.$$
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section{Вопросы.}
+	1. Как отформатировать date, чтобы в заголовке была нужная мне дата?
+	
+	2. Задание 4:
+		1) Нужно ли добавлять номер страницы, как на скриншоте справа снизу?
+		
+		2) Нужно ли делать отступ с фразой "5. Семи неравенствам", как на скриншоте. И если нужно, то как?
+		
+		3) У меня получились большие отступы между неравенствами. Большой ли это недочет и как его исправить?
+		
+	3. Как сделать так, чтобы этот текст не слипался в абзацы? Как сделать так, чтобы самое первое предложение начиналось с абзаца? Это касается и задания 6.
+	4. Задание 6:
+		1) Нет 100-процентного совпадения с оригиналом.
+	
+\end{document} % Конец текста.
