@@ -14,6 +14,12 @@
 %% Номера формул
 %\mathtoolsset{showonlyrefs=true} % Показывать номера только у тех формул, на которые есть \eqref{} в тексте.
 
+%%% Работа с таблицами
+\usepackage{array,tabularx,tabulary,booktabs} % Дополнительная работа с таблицами
+\usepackage{longtable}  % Длинные таблицы
+\usepackage{multirow} % Слияние строк в таблице
+\usepackage{wrapfig} % Обтекание рисунков и таблиц текстом
+
 %% Шрифты
 \usepackage{euscript}	 % Шрифт Евклид
 \usepackage{mathrsfs} % Красивый матшрифт
@@ -37,7 +43,24 @@
 	
 	\section{Первое задание}
 	
-	\section{Второе задание}
+	\section{Второе задание. Малые таблицы. 1}
+	\begin{center}
+	\begin{tabulary}{\textwidth}{|C|C|C|C|}
+		\hline
+		\multirow{2}{*}{Число делящихся элементов} & \multicolumn{3}{|c|}{Число частей при делении} \\ 
+		\cline{2-4}
+		& пространства плоскостями & плоскости прямыми & прямой точками \\ 
+		\hline
+		0 & 1 & 1 & 1 \\
+		1 & 2 & 2 & 2 \\
+		2 & 4 & 4 & 3 \\
+		3 & 8 & 7 & 4 \\
+		4 & 15 &  & 5 \\
+		\dots & \dots & \dots & \dots \\
+		$n$ &  &  & $n + 1$ \\
+		\hline
+	\end{tabulary}
+	\end{center}
 	
 	\section{Третье задание}
 
