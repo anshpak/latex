@@ -96,11 +96,22 @@
 		\dfrac{1}{\sqrt{2}} \left( \arctg \dfrac{3 \sqrt{2}}{4} + \pi \right). \; \blacktriangle
 	$$
 	
-	
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	
-	\newpage
-	\section{Второе задание. Малые таблицы. 1}
+	\section{Второе задание}
+	$$
+		\omega_i(f) = \sup \limits_{x' \in \left[a ; b\right] \atop x'' \in \left[a ; b\right]} |f(x') -f(x'')| \leqslant \varepsilon, \quad
+		i=1,\, 2, \, ... , \, k_\tau,
+	$$
+	а поэтому
+	$$
+		\sum \limits_{i=1}^{k_\tau} \omega_i(f) \Delta x_i \leqslant \varepsilon 
+		\sum \limits_{i=1}^{k_\tau} \Delta x_i = 
+		\varepsilon \left(b - a\right).
+	$$
+	Отсюда
+	$$
+		\lim \limits_{| \tau | \to 0} \sum \limits_{i=1}^{k_\tau} \omega_i(f) \Delta x_i = 0,
+	$$
 	
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	

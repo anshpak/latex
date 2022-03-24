@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  24 MAR 2022 22:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  24 MAR 2022 23:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -609,8 +609,13 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <6> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
  [1
 
-{C:/Users/Andrey/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3] [4]
- [5] [6] [7] (lab-3.aux)
+{C:/Users/Andrey/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+
+Package amsmath Warning: Foreign command \atop;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 102.
+
+[2] [3] [4] [5] [6] (lab-3.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -629,13 +634,15 @@ labx1728.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dp
 i600\larm1440.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t
 2a/dpi600\larm2074.pk><D:/latex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/l
 atex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/latex/fonts/type1/public/ams
-fonts/cm/cmmi8.pfb><D:/latex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/latex
-/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/latex/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb><D:/latex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/latex/font
-s/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on lab-3.pdf (7 pages, 125923 bytes).
+fonts/cm/cmmi6.pfb><D:/latex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/latex
+/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/latex/fonts/type1/public/amsfonts
+/cm/cmr6.pfb><D:/latex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/latex/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><D:/latex/fonts/type1/public/amsfonts/cm/cm
+sy6.pfb><D:/latex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/latex/fonts/type
+1/public/amsfonts/symbols/msam10.pfb>
+Output written on lab-3.pdf (6 pages, 153942 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
+ 189 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
