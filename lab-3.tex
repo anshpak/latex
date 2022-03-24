@@ -43,7 +43,6 @@
 	\begin{equation}
 		\displaystyle \int \limits_{-1}^{2} \dfrac{1 + x^2}{1 + x^4} \; dx. \tag{11}
 	\end{equation}
-	
 	$\blacktriangle$
 	Сделав при 
 	$x \neq 0$
@@ -56,11 +55,11 @@
 		\dfrac{1}{\sqrt{2}} \: \arctg \: \dfrac{x^2 - 1}{x \sqrt{2}} + C
 	$$
 	и, следовательно,
-	$$
+	\begin{equation}
 		\left( \dfrac{1}{\sqrt{2}} \: \arctg \: \dfrac{x^2 - 1}{x \sqrt{2}} \right)' = 
 		\dfrac{1 + x^2}{1 + x^4}, \; \; \;
-		x \neq 0.
-	$$
+		x \neq 0. \tag{12}
+	\end{equation}
 	Поскольку
 	$$
 		\lim \limits_{x\to +0} \dfrac{1}{\sqrt{2}} \: \arctg \: \dfrac{x^2 - 1}{x \sqrt{2}} = 
@@ -69,6 +68,20 @@
 		\dfrac{\pi}{2 \sqrt{2}},
 	$$
 	то функция
+	\[
+		F(x)=
+		\begin{cases} % & использован для выравнивания
+			\dfrac{1}{\sqrt{2}} \: \arctg \: \dfrac{x^2 - 1}{x \sqrt{2}} -
+			\dfrac{\pi}{2 \sqrt{2}}, &\text{если } \: \: \: x \ge 0, 
+			\\
+			\hfil 0, &\text{если } \: \: \: x = 0.
+			\\
+			\dfrac{1}{\sqrt{2}} \: \arctg \: \dfrac{x^2 - 1}{x \sqrt{2}} + 
+			\dfrac{\pi}{2 \sqrt{2}}, &\text{если } \: \: \: x \le 0.
+			\tag{13}
+		\end{cases}
+	\]
+	
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	
 	\newpage
