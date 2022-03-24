@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  24 MAR 2022 21:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  24 MAR 2022 22:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -596,30 +596,30 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 38
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 43.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 43.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <6> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 43.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
  [1
 
 {C:/Users/Andrey/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3] [4]
- [5] [6] (lab-3.aux)
+ [5] [6] [7] (lab-3.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 6090 strings out of 478659
- 91258 string characters out of 2862873
- 400903 words of memory out of 3000000
- 24028 multiletter control sequences out of 15000+600000
+ 6094 strings out of 478659
+ 91294 string characters out of 2862873
+ 401947 words of memory out of 3000000
+ 24032 multiletter control sequences out of 15000+600000
  418914 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,9n,71p,311b,266s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -633,9 +633,9 @@ fonts/cm/cmmi8.pfb><D:/latex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/latex
 /fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/latex/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb><D:/latex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/latex/font
 s/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on lab-3.pdf (6 pages, 122003 bytes).
+Output written on lab-3.pdf (7 pages, 125923 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
+ 186 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

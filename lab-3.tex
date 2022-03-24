@@ -38,11 +38,12 @@
 	\maketitle % печатает заголовок, имя автора и дату
 	
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\section{Первое задание.}	
-	Пример 18. Вычислить интеграл
-	\begin{equation}
+	\section{Первое задание}	
+	$\quad$ Пример 18. Вычислить интеграл
+	\begin{equation} \label{eleven}
 		\displaystyle \int \limits_{-1}^{2} \dfrac{1 + x^2}{1 + x^4} \; dx. \tag{11}
 	\end{equation}
+
 	$\blacktriangle$
 	Сделав при 
 	$x \neq 0$
@@ -55,7 +56,7 @@
 		\dfrac{1}{\sqrt{2}} \: \arctg \: \dfrac{x^2 - 1}{x \sqrt{2}} + C
 	$$
 	и, следовательно,
-	\begin{equation}
+	\begin{equation} \label{twelve}
 		\left( \dfrac{1}{\sqrt{2}} \: \arctg \: \dfrac{x^2 - 1}{x \sqrt{2}} \right)' = 
 		\dfrac{1 + x^2}{1 + x^4}, \; \; \;
 		x \neq 0. \tag{12}
@@ -70,17 +71,31 @@
 	то функция
 	\[
 		F(x)=
-		\begin{cases} % & использован для выравнивания
+		\begin{cases} \label{thirteen}
 			\dfrac{1}{\sqrt{2}} \: \arctg \: \dfrac{x^2 - 1}{x \sqrt{2}} -
-			\dfrac{\pi}{2 \sqrt{2}}, &\text{если } \: \: \: x \ge 0, 
+			\dfrac{\pi}{2 \sqrt{2}}, &\text{если } \: \: \: x > 0, 
 			\\
 			\hfil 0, &\text{если } \: \: \: x = 0.
 			\\
 			\dfrac{1}{\sqrt{2}} \: \arctg \: \dfrac{x^2 - 1}{x \sqrt{2}} + 
-			\dfrac{\pi}{2 \sqrt{2}}, &\text{если } \: \: \: x \le 0.
+			\dfrac{\pi}{2 \sqrt{2}}, &\text{если } \: \: \: x < 0.
 			\tag{13}
 		\end{cases}
 	\]
+	будет непрерывной на всей числовой оси, а так как согласно $\eqref{twelve}$
+	\begin{equation} \label{fourteen}
+		F'(x) = \dfrac{1 + x^2}{1 + x^4}, \quad x \neq 0,
+		\tag{14}
+	\end{equation}
+	то в силу непрерывности функции
+	$\left(1 + x^2\right) \left(1 + x^4\right)$
+	равенство $\eqref{fourteen}$ верно и при $x = 0$. Таким образом, функция $\eqref{thirteen}$ является первообразной для подынтегральной функции интеграла $\eqref{eleven}$. Поэтому
+	$$
+		\displaystyle \int \limits_{-1}^{2} \dfrac{1 + x^2}{1 + x^4} \; dx =
+		F(2) - F(-1) = 
+		\dfrac{1}{\sqrt{2}} \left( \arctg \dfrac{3 \sqrt{2}}{4} + \pi \right). \; \blacktriangle
+	$$
+	
 	
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	
