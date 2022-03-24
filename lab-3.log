@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  25 MAR 2022 00:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  25 MAR 2022 00:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -613,9 +613,9 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <6> not available
 
 Package amsmath Warning: Foreign command \atop;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 102.
+(amsmath)                 on input line 103.
 
-[2] [3] [4] [5] (lab-3.aux)
+[2] [3] [4] (lab-3.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -640,9 +640,9 @@ fonts/cm/cmmi6.pfb><D:/latex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/latex
 type1/public/amsfonts/cm/cmsy10.pfb><D:/latex/fonts/type1/public/amsfonts/cm/cm
 sy6.pfb><D:/latex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/latex/fonts/type
 1/public/amsfonts/symbols/msam10.pfb>
-Output written on lab-3.pdf (5 pages, 156650 bytes).
+Output written on lab-3.pdf (4 pages, 156777 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
+ 180 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
