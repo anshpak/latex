@@ -30,7 +30,7 @@
 %%% Заголовок
 \author{Ссылки, таблицы и формулы в несколько строк}
 \title{Лабораторная работа №2}
-\date{\today}
+\date{13 марта 2022 г.}
 
 
 \begin{document} % Конец преамбулы, начало текста.
@@ -75,6 +75,15 @@
 			& & $\qquad \qquad \qquad \qquad \; \quad \qquad \quad \dots$ 
 			%%%
 		\end{tabulary}
+	
+	\begin{tabular}{c||p{2cm}@{$\pm$\ }r|}
+		\textbf{ИЛИ} & Истина & Ложь \\[2mm]
+		\cline{2-3}
+		Истина & Истина & Истина \\
+		\cline{1-1}\cline{3-3}
+		Ложь & Истина & Ложь\\ \cline{2-2}
+	\end{tabular}
+	
 	\end{table}
 \begin{table}[h!]
 	\begin{tabulary}{\textwidth}{CCCC}
@@ -111,6 +120,7 @@
 	$\textit{Таблица \MakeUppercase{\romannumeral 6}}$
 	
 	Общее число совпадений, наблюдаемых и теоретических (Гипотеза \MakeUppercase{\romannumeral 2})
+	
 	\begin{table}[h!]
 		\begin{tabulary}{\textwidth}{|C|C|C|C|C|C|}
 			\hline
@@ -138,6 +148,17 @@
 		-3x_1 + 7x_2 & \leqslant 21, \\
 		x_1 - 3x_2 & \leqslant 3
 	\end{align}
+	\[
+	\begin{cases}
+		2x_1 + 3x_2 & \leqslant 6, \\
+		x_1 + x_2 & \leqslant 2, \\
+		-x_1 - 3x_2 & \leqslant 3, \\
+		2x_1 \qquad & \leqslant 3, \\
+		-x_1 \qquad & \leqslant 3, \\
+		-3x_1 + 7x_2 & \leqslant 21, \\
+		x_1 - 3x_2 & \leqslant 3
+	\end{cases} \tag{S}
+	\]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\section{Пятое задание. Нумерация и системы 2}
@@ -197,30 +218,30 @@
 		\frac{1}{5^ \alpha} -
 		\frac{1}{6^ \alpha} + 
 		\dots + \\
-		+ \frac{1}{ \left(2n - 1 \right)^ \alpha} -
-		\frac{1}{ \left(2n \right)^ \alpha} =
-		\left(
+		\shoveleft{ \qquad + \frac{1}{ \left(2n - 1 \right)^ \alpha} -
+			\frac{1}{ \left(2n \right)^ \alpha} =
+			\left(
 			1 + 
 			\frac{1}{2^ \alpha} + 
 			\frac{1}{3^ \alpha} +
 			\frac{1}{4^ \alpha} +
 			\frac{1}{5^ \alpha} +
-		\right. \\
-		\left.
+			\right.} \\
+		\shoveleft{\qquad \left.
 			+ \frac{1}{6^ \alpha} +
 			\dots +
 			\frac{1}{ \left(2n - 1 \right)^ \alpha} +
 			\frac{1}{ \left(2n \right)^ \alpha}
-		\right) - \\
-		- 2
-		\left(
+			\right) -} \\
+		\shoveright{- 2
+			\left(
 			\frac{1}{2^ \alpha} + 
 			\frac{1}{4^ \alpha} +
 			\frac{1}{6^ \alpha} +
 			\dots +
 			\frac{1}{ \left(2n \right)^ \alpha}
-		\right) = \\
-		= \left(
+			\right) =} \\
+		\shoveleft{= \left(
 			1 + 
 			\frac{1}{2^ \alpha} + 
 			\frac{1}{3^ \alpha} +
@@ -228,19 +249,8 @@
 			\frac{1}{5^ \alpha} +
 			\frac{1}{6^ \alpha} +
 			\dots + 
-		\right. \\
-		\left.
-			+ \frac{1}{ \left(2n - 1 \right)^ \alpha} +
-			\frac{1}{ \left(2n \right)^ \alpha}
-		\right)
-		- \frac{2}{2^ \alpha}
-		\left(
-		1 +
-		\frac{1}{2^ \alpha} + 
-		\frac{1}{3^ \alpha} +
-		\dots +
-		\frac{1}{n^ \alpha}
-		\right).
+			\right.} \\
+		\left. + \frac{1}{ \left(2n - 1 \right)^ \alpha} + \frac{1}{ \left(2n \right)^ \alpha} \right) - \frac{2}{2^ \alpha}	\left(1 + \frac{1}{2^ \alpha} + \frac{1}{3^ \alpha} + \dots + \frac{1}{n^ \alpha} \right).
 	\end{multline*}
 	Так как 
 	$x_n = 1 + 
