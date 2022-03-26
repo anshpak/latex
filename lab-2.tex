@@ -50,31 +50,18 @@
 	В нашей задаче есть возможность воспользоваться этой формулой:
 
 	\begin{table}[h!]
-		\begin{tabulary}{\textwidth}{CCC}
-			%%%
-			\multicolumn{3}{l}{$ \; \qquad \; \; \; \frac{1}{1-x+x^2} = \frac{1}{1 - x \left(1 - x \right)} =$} \\
-			%%%
-			\multicolumn{3}{l}{$\; \; \qquad \; \; \; = 1 + x \left(1 - x \right) + x^2 \left(1 - x \right)^2 + x^3 \left(1 - x \right)^3 + \dots =$} \\
-			%%%
-			\multicolumn{2}{c}{$ \; = 1 + x - x^2 +$} & \\
-			%%%
-			\multicolumn{2}{c}{$\quad \qquad \qquad \; \; + x^2 - 2x^3 + x^4 +$} & \\
-			%%%
-			& \multicolumn{2}{l}{$\; \quad \qquad \qquad \qquad \qquad + x^3 - 3x^4 + 3x^5 - x^6 +$} \\
-			%%%
-			& \multicolumn{2}{l}{$\quad \; \qquad \qquad \qquad \qquad \qquad + x^4 - 4x^5 + 6x^6 - 4x^7 + x^8 +$} \\
-			%%%
-			& \multicolumn{2}{l}{$\qquad \qquad \qquad \; \! \qquad \qquad \qquad \quad + x^5 - 5x^6 + 10x^7 - 10x^8 + \dots$} \\
-			%%%
-			& & $\qquad \quad \; + x^6 - 6x^7 + 15x^8 + \dots$ \\
-			%%%
-			& & $\; \quad \qquad \quad \; \qquad+ x^7 - 7x^8 + \dots$ \\
-			%%%
-			& & $\qquad \qquad \qquad \quad \; \qquad + x^8 - \dots$ \\
-			%%%
-			& & $\qquad \qquad \qquad \qquad \; \quad \qquad \quad \dots$ 
-			%%%
-		\end{tabulary}
+		\begin{tabular}{*{19}{r@{$\;$}}}
+			$1$ & $+$ & $x$ & $-$ & $x^2$ & $+$ & & & & & & & & & & & & & \\
+			& & & $+$ & $x^2$ & $-$ & $2x^3$ & $+$ & $x^4$ & $+$ & & & & & & & & & \\
+			& & & & & $+$ & $x^3$ & $-$ &$3x^4$ & $+$ & $3x^5$ & $-$ & $x^6$ & $+$ & & & & & \\
+			& & & & & & & $+$ & $x^4$ & $-$ & $4x^5$ & $+$ & $6x^6$ & $-$ & $4x^7$ & $+$ & $x^8$ & $+$ & \\
+			& & & & & & & & & & & & & & & & & & \\
+			& & & & & & & & & & & & & & & & & & \\
+			& & & & & & & & & & & & & & & & & & \\
+			& & & & & & & & & & & & & & & & & & \\
+			& & & & & & & & & & & & & & & & & & \\
+			& & & & & & & & & & & & & & & & & & \\
+		\end{tabular}
 	
 	\begin{tabular}{c||p{2cm}@{$\pm$\ }r|}
 		\textbf{ИЛИ} & Истина & Ложь \\[2mm]
