@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  6 APR 2022 21:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  8 APR 2022 00:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./lab-3.tex
-(lab-3.tex
+**./task1-3.tex
+(task1-3.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2021-11-22> (D:\latex\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -391,120 +391,52 @@ Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 \xmathstrut@dim=\dimen158
 ) (D:\latex\tex/latex/was\icomma.sty
 Package: icomma 2002/03/10 v2.0 (WaS)
-) (D:\latex\tex/latex/tools\array.sty
-Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen159
-\ar@mcellbox=\box53
-\extrarowheight=\dimen160
-\NC@list=\toks30
-\extratabsurround=\skip59
-\backup@length=\skip60
-\ar@cellbox=\box54
-) (D:\latex\tex/latex/tools\tabularx.sty
-Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen161
-\TX@old@table=\dimen162
-\TX@old@col=\dimen163
-\TX@target=\dimen164
-\TX@delta=\dimen165
-\TX@cols=\count275
-\TX@ftn=\toks31
-)
-(D:\latex\tex/latex/tabulary\tabulary.sty
-Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
-\TY@count=\count276
-\TY@linewidth=\dimen166
-\tymin=\dimen167
-\tymax=\dimen168
-\TY@tablewidth=\dimen169
-)
-(D:\latex\tex/latex/booktabs\booktabs.sty
-Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen170
-\lightrulewidth=\dimen171
-\cmidrulewidth=\dimen172
-\belowrulesep=\dimen173
-\belowbottomsep=\dimen174
-\aboverulesep=\dimen175
-\abovetopsep=\dimen176
-\cmidrulesep=\dimen177
-\cmidrulekern=\dimen178
-\defaultaddspace=\dimen179
-\@cmidla=\count277
-\@cmidlb=\count278
-\@aboverulesep=\dimen180
-\@belowrulesep=\dimen181
-\@thisruleclass=\count279
-\@lastruleclass=\count280
-\@thisrulewidth=\dimen182
-)
-(D:\latex\tex/latex/tools\longtable.sty
-Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
-\LTleft=\skip61
-\LTright=\skip62
-\LTpre=\skip63
-\LTpost=\skip64
-\LTchunksize=\count281
-\LTcapwidth=\dimen183
-\LT@head=\box55
-\LT@firsthead=\box56
-\LT@foot=\box57
-\LT@lastfoot=\box58
-\LT@gbox=\box59
-\LT@cols=\count282
-\LT@rows=\count283
-\c@LT@tables=\count284
-\c@LT@chunks=\count285
-\LT@p@ftn=\toks32
-)
-(D:\latex\tex/latex/multirow\multirow.sty
-Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip65
-\multirow@cntb=\count286
-\multirow@dima=\skip66
-\bigstrutjot=\dimen184
-)
-(D:\latex\tex/latex/wrapfig\wrapfig.sty
-\wrapoverhang=\dimen185
-\WF@size=\dimen186
-\c@WF@wrappedlines=\count287
-\WF@box=\box60
-\WF@everypar=\toks33
-Package: wrapfig 2003/01/31  v 3.6
-)
-(D:\latex\tex/latex/amsfonts\euscript.sty
-Package: euscript 2009/06/22 v3.00 Euler Script fonts
-LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
-(Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
-)
-(D:\latex\tex/latex/jknappen\mathrsfs.sty
-Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
-\symrsfs=\mathgroup9
-)
+) (D:\latex\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(D:\latex\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (D:\latex\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count275
+\Gm@cntv=\count276
+\c@Gm@tempcnt=\count277
+\Gm@bindingoffset=\dimen159
+\Gm@wd@mp=\dimen160
+\Gm@odd@mp=\dimen161
+\Gm@even@mp=\dimen162
+\Gm@layoutwidth=\dimen163
+\Gm@layoutheight=\dimen164
+\Gm@layouthoffset=\dimen165
+\Gm@layoutvoffset=\dimen166
+\Gm@dimlist=\toks30
+
+(D:\latex\tex/latex/geometry\geometry.cfg))
 (D:\latex\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count288
-\l__pdf_internal_box=\box61
-) (lab-3.aux)
-\openout1 = `lab-3.aux'.
+\l__color_backend_stack_int=\count278
+\l__pdf_internal_box=\box53
+) (task1-3.aux)
+\openout1 = `task1-3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Info: Redefining \th on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Info: Redefining \th on input line 20.
 
 (D:\latex\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
@@ -523,17 +455,17 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 
 (D:\latex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count289
-\scratchdimen=\dimen187
-\scratchbox=\box62
-\nofMPsegments=\count290
-\nofMParguments=\count291
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count292
-\MPscratchDim=\dimen188
-\MPnumerator=\count293
-\makeMPintoPDFobject=\count294
-\everyMPtoPDFconversion=\toks35
+\scratchcounter=\count279
+\scratchdimen=\dimen167
+\scratchbox=\box54
+\nofMPsegments=\count280
+\nofMParguments=\count281
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count282
+\MPscratchDim=\dimen168
+\MPnumerator=\count283
+\makeMPintoPDFobject=\count284
+\everyMPtoPDFconversion=\toks32
 ))) (D:\latex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -542,109 +474,69 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (D:\latex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\Gin@req@height=\dimen189
-\Gin@req@width=\dimen190
-)<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-
-LaTeX Font Warning: Font shape `T2A/cmr/m/up' undefined
-(Font)              using `T2A/cmr/m/n' instead on input line 38.
-
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 3
-8.
-(D:\latex\tex/latex/base\omlcmr.fd
-File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+\Gin@req@height=\dimen169
+\Gin@req@width=\dimen170
 )
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 483.69687pt, 42.67912pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Warning: Font shape `OML/cmr/m/up' undefined
-(Font)              using `OML/cmr/m/it' instead on input line 38.
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+29.
+(D:\latex\tex/latex/cyrillic\t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+) [1
 
-LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <14.4> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 38.
-LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 38.
-LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <7> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 38.
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
-8.
-(D:\latex\tex/latex/base\omscmr.fd
-File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-
-LaTeX Font Warning: Font shape `OMS/cmr/m/up' undefined
-(Font)              using `OMS/cmr/m/n' instead on input line 38.
-
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
-LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
-LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 38.
-
-(D:\latex\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
-
- (D:\latex\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 38
-.
-
-(D:\latex\tex/latex/jknappen\ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 42.
-LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 42.
-LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <6> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 42.
-LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
-LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
-LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
- [1
-
-{C:/Users/Andrey/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-
-Package amsmath Warning: Foreign command \atop;
-(amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 103.
-
-[2] [3] (lab-3.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
- ) 
+{C:/Users/Andrey/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (task1-3.au
+x) ) 
 Here is how much of TeX's memory you used:
- 6094 strings out of 478659
- 91318 string characters out of 2862873
- 401947 words of memory out of 3000000
- 24032 multiletter control sequences out of 15000+600000
- 418914 words of font info for 71 fonts, out of 8000000 for 9000
+ 5908 strings out of 478659
+ 88311 string characters out of 2862873
+ 401721 words of memory out of 3000000
+ 23939 multiletter control sequences out of 15000+600000
+ 408491 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,9n,71p,311b,266s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0
-800.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\
-larm1200.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dp
-i600\labx1728.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t
-2a/dpi600\larm1440.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh
-/lh-t2a/dpi600\larm2074.pk><D:/latex/fonts/type1/public/amsfonts/cm/cmex10.pfb>
-<D:/latex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/latex/fonts/type1/publi
-c/amsfonts/cm/cmmi6.pfb><D:/latex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/
-latex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/latex/fonts/type1/public/ams
-fonts/cm/cmr6.pfb><D:/latex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/latex/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb><D:/latex/fonts/type1/public/amsfonts/
-cm/cmsy6.pfb><D:/latex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/latex/fonts
-/type1/public/amsfonts/symbols/msam10.pfb><D:/latex/fonts/type1/public/amsfonts
-/symbols/msbm10.pfb>
-Output written on lab-3.pdf (3 pages, 165211 bytes).
+ 63i,5n,71p,1089b,195s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lat
+t1200.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi60
+0\lati1200.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/
+dpi600\labx1200.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\tcrm1200.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfou
+r/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/
+ljfour/lh/lh-t2a/dpi600\labx1728.pk>
+Output written on task1-3.pdf (1 page, 47922 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
+ 151 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,112 @@
+\documentclass[a4paper,11pt]{article} %опция twoside нужна для разных колонтитулов; если на всех страницах нужен один колонтитул, убери
+
+%%% Работа с русским языком
+\usepackage{mathtext} 				% русские буквы в формулах
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage[english,russian]{babel}	% локализация и переносы
+
+%%% Дополнительная работа с математикой
+\usepackage{amsmath, amssymb, eucal}
+
+\usepackage{geometry} % Простой способ задавать поля
+\geometry{top=20mm}
+\geometry{bottom=20mm}
+\geometry{left=25mm}
+\geometry{right=15mm}
+
+\usepackage[pdftex,unicode, bookmarks, pagebackref]{hyperref} %colorlinks,
+
+%%% Заголовок
+\author{Оформление документов}
+\title{Лабораторная работа №3}
+\date{07 апреля 2022 г.}
+
+
+\begin{document} % Конец преамбулы, начало текста.
+	
+	\maketitle % печатает заголовок, имя автора и дату
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section{Первое задание}
+	\qquad Расписание:
+	\begin{itemize}
+		\item {
+			\texttt{понедельник}
+			\begin{itemize}
+				\item[\checkmark]{\it 08:15 - 09:35 \\
+					\bf Алгебра (лк)}
+				\item[\checkmark]{\it 09:45 - 11:05 \\
+					\bf Алгебра (пз)}
+				\item[\checkmark]{\it 11:15 - 12:35 \\
+					\bf Математический анализ (лк)}
+			\end{itemize}	
+		}
+		\item {
+			\texttt{вторник}
+			\begin{itemize}
+				\item[\checkmark]{\it 08:15 - 09:35 \\
+					\bf Геометрия (лк)}
+				\item[\checkmark]{\it 09:45 - 11:05 \\
+					\bf Математический анализ (пз)}
+				\item[\checkmark]{\it 11:15 - 12:35 \\
+					\bf Методы программирования (пз)}
+				\item[\checkmark]{\it 13:00 - 14:20 \\
+					\bf Методы программирования (лк)} 
+			\end{itemize}	
+		}
+		\item {
+			\texttt{среда}
+			\begin{itemize}
+				\item[\checkmark]{\it 08:15 - 09:35 \\
+					\bf Английский (пз)}
+				\item[\checkmark]{\it 09:45 - 11:05 \\
+					\bf Физ-ра (пз)}
+				\item[\checkmark]{\it 11:15 - 12:35 \\
+					\bf Математический анализ (пз)}
+			\end{itemize}	
+		}
+		\item {
+			\texttt{четверг}
+			\begin{itemize}
+				\item[\checkmark]{\it 08:15 - 09:35 \\
+					\bf Вычислительная практика (пз)}
+				\item[\checkmark]{\it 09:45 - 11:05 \\
+					\bf Английский (пз)}
+				\item[\checkmark]{\it 11:15 - 12:35 \\
+					\bf Математический анализ (лк)}
+			\end{itemize}	
+		}
+		\item {
+			\texttt{пятница}
+			\begin{itemize}
+				\item[\checkmark]{\it 13:00 - 14:20 \\
+					\bf Дискретная математика (лк)} 
+			\end{itemize}	
+		}
+		\item {
+			\texttt{суббота}
+			\begin{itemize}
+				\item[\checkmark]{\it 08:15 - 09:35 \\
+					\bf Компьютерная математика (пз)}
+				\item[\checkmark]{\it 09:45 - 11:05 \\
+					\bf Дискретная математика (пз)}
+				\item[\checkmark]{\it 11:15 - 12:35 \\
+					\bf Геометрия (пз)}
+			\end{itemize}	
+		}
+	\end{itemize}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section{Второе задание}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section{Третье задание}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section{Четвертое задание}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section{Пятое задание}
+	
+\end{document} % Конец текста.
