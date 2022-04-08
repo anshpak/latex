@@ -1,0 +1,45 @@
+\documentclass[a4paper,11pt,draft]{article} %опция twoside нужна для разных колонтитулов; если на всех страницах нужен один колонтитул, убери
+
+%%% Работа с русским языком
+\usepackage{mathtext} 				% русские буквы в формулах
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage[english,russian]{babel}	% локализация и переносы
+
+%%% Дополнительная работа с математикой
+\usepackage{amsmath, amssymb, eucal}
+
+\usepackage{geometry} % Простой способ задавать поля
+\geometry{top=20mm}
+\geometry{bottom=20mm}
+\geometry{left=25mm}
+\geometry{right=15mm}
+
+\usepackage{fancyhdr} %загрузим пакет
+\pagestyle{fancy} %применим колонтитул
+\fancyhead{} %очистим хидер на всякий случай
+\fancyhead[LE,RO]{\thepage} %номер страницы слева сверху на четных и справа на нечетных
+\fancyhead[CO]{текст-центр-нечетные}
+\fancyhead[LO]{текст-слева-нечетные} 
+\fancyhead[CE]{текст-центр-четные} 
+\fancyfoot{} %футер будет пустой
+% C,L,R --- расположение текста в колонтитуле
+% E, O --- четные и нечетные страницы
+
+\usepackage[pdftex,unicode, bookmarks, pagebackref]{hyperref} %colorlinks,
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ДО этой строки можно копировать все смело!
+
+\pagestyle{plain}
+
+%%% Заголовок
+\title{\Huge{<<Земля кочевников>> с Фрэнсис МакДорманд}}
+\author{\LARGE{Кинопоиск}}
+\date{\LARGE\07 апреля 2022}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document} % Конец преамбулы, начало текста.
+	
+	\maketitle % печатает заголовок, имя автора и дату
+	
+\end{document} % Конец текста.
