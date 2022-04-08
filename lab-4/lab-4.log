@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  8 APR 2022 09:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  8 APR 2022 09:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -665,8 +665,8 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
  [1
 
-{C:/Users/Andrey/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] (lab-4.
-aux)
+{C:/Users/Andrey/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3] (la
+b-4.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -674,10 +674,10 @@ Package rerunfilecheck Info: File `lab-4.out' has not changed.
 (rerunfilecheck)             Checksum: BA118342F8CB8F5ED36F0F26AF4C442C;791.
  ) 
 Here is how much of TeX's memory you used:
- 11669 strings out of 478659
- 174962 string characters out of 2862873
+ 11673 strings out of 478659
+ 175000 string characters out of 2862873
  487714 words of memory out of 3000000
- 29612 multiletter control sequences out of 15000+600000
+ 29615 multiletter control sequences out of 15000+600000
  418523 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,6n,91p,281b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -690,10 +690,10 @@ lh/lh-t2a/dpi600\larm1095.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/lj
 four/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/
 pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\f
 onts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk><D:/latex/fonts/type1/public/amsfon
-ts/symbols/msam10.pfb>
-Output written on lab-4.pdf (2 pages, 61800 bytes).
+ts/cm/cmr10.pfb><D:/latex/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on lab-4.pdf (3 pages, 90131 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
+ 260 PDF objects out of 1000 (max. 8388607)
+ 9 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
