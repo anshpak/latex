@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  8 APR 2022 12:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  21 APR 2022 23:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -540,27 +540,27 @@ File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
 ) (lab-4.1.aux)
 \openout1 = `lab-4.1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Info: Redefining \th on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Info: Redefining \th on input line 33.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -599,7 +599,7 @@ LaTeX Info: Redefining \th on input line 38.
 
 Package hyperref Warning: Draft mode on.
 
-Package hyperref Info: Link coloring OFF on input line 38.
+Package hyperref Info: Link coloring OFF on input line 33.
 (D:\latex\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -611,95 +611,147 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count285
 )
-LaTeX Info: Redefining \ref on input line 38.
-LaTeX Info: Redefining \pageref on input line 38.
-LaTeX Info: Redefining \nameref on input line 38.
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
 
 
 LaTeX Font Warning: Font shape `T2A/cmr/m/up' undefined
-(Font)              using `T2A/cmr/m/n' instead on input line 40.
+(Font)              using `T2A/cmr/m/n' instead on input line 37.
 
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 4
-0.
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 3
+7.
 (D:\latex\tex/latex/base\omlcmr.fd
 File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `OML/cmr/m/up' undefined
-(Font)              using `OML/cmr/m/it' instead on input line 40.
+(Font)              using `OML/cmr/m/it' instead on input line 37.
 
-LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 40.
-LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 40.
-LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <6> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 40.
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 4
-0.
+LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <14.4> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 37.
+LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 37.
+LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <7> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 37.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
+7.
 (D:\latex\tex/latex/base\omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `OMS/cmr/m/up' undefined
-(Font)              using `OMS/cmr/m/n' instead on input line 40.
+(Font)              using `OMS/cmr/m/n' instead on input line 37.
 
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
-LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
-LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
+LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
+LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 37.
 
 (D:\latex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
 
  (D:\latex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for PD1+cmr on input line 4
-0.
-LaTeX Font Info:    No file PD1cmr.fd. on input line 40.
+LaTeX Font Info:    Trying to load font information for PD1+cmr on input line 3
+7.
+LaTeX Font Info:    No file PD1cmr.fd. on input line 37.
 
 
 LaTeX Font Warning: Font shape `PD1/cmr/m/up' undefined
-(Font)              using `PD1/pdf/m/n' instead on input line 40.
+(Font)              using `PD1/pdf/m/n' instead on input line 37.
 
-LaTeX Font Info:    Trying to load font information for PU+cmr on input line 40
+LaTeX Font Info:    Trying to load font information for PU+cmr on input line 37
 .
-LaTeX Font Info:    No file PUcmr.fd. on input line 40.
+LaTeX Font Info:    No file PUcmr.fd. on input line 37.
 
 LaTeX Font Warning: Font shape `PU/cmr/m/up' undefined
-(Font)              using `PU/pdf/m/n' instead on input line 40.
+(Font)              using `PU/pdf/m/n' instead on input line 37.
+
+LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <9> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 37.
+LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <6> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 37.
+LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <5> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 37.
+LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
+LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <6> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
+LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <5> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
+LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <10.95> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 43.
+LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <8> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 43.
+LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
+LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
 
 [1
 
 {C:/Users/Andrey/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Underfull \hbox (badness 2426) in paragraph at lines 97--106
+\T2A/cmr/m/up/10.95 Самостоятельная ра-бо-та сту-ден-тов в рам-ках дан-ных кур-
+сов ори-ен-ти-ро-ва-на на уча-стие
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 97--106
+\T2A/cmr/m/up/10.95 в учебно-исследовательских про-ек-тах, вы-пол-ня-е-мых в ме
+ж-уни-вер-си-тет-ской ин-но-ва-ци-он-ной
+ []
+
+[2]
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+121.
+ (D:\latex\tex/latex/cyrillic\t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+) [3] [4] (lab-4.1.brf)
+\tf@brf=\write3
+\openout3 = `lab-4.1.brf'.
+
+ [5]
 (lab-4.1.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+Package rerunfilecheck Info: File `lab-4.1.brf' has not changed.
+(rerunfilecheck)             Checksum: A714DCC98DF4117EED37899296BEF42B;126.
  ) 
 Here is how much of TeX's memory you used:
- 11793 strings out of 478659
- 176454 string characters out of 2862873
- 479953 words of memory out of 3000000
- 29749 multiletter control sequences out of 15000+600000
- 415727 words of font info for 57 fonts, out of 8000000 for 9000
+ 11891 strings out of 478659
+ 177995 string characters out of 2862873
+ 493951 words of memory out of 3000000
+ 29830 multiletter control sequences out of 15000+600000
+ 424490 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,7n,91p,280b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1
+ 87i,8n,91p,684b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt1
 095.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\
-larm1000.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dp
-i600\labx1095.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t
-2a/dpi600\larm1200.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh
-/lh-t2a/dpi600\larm1728.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfo
-ur/lh/lh-t2a/dpi600\larm2488.pk>
-Output written on lab-4.1.pdf (1 page, 36041 bytes).
+larm0900.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dp
+i600\larm0600.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t
+2a/dpi600\larm1095.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh
+/lh-t2a/dpi600\labx1440.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfo
+ur/lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk
+/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><D:/latex/fonts/type1/public/amsfonts
+/cm/cmmi10.pfb><D:/latex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/latex/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on lab-4.1.pdf (5 pages, 138555 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
+ 348 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
