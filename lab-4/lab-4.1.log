@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  22 APR 2022 09:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  22 APR 2022 11:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -465,7 +465,6 @@ Now handling font encoding PU ...
 \symPUletters=\mathgroup10
 )
 Package hyperref Info: Option `unicode' set `true' on input line 3167.
-Package hyperref Info: Option `draft' set `true' on input line 4073.
 Package hyperref Info: Option `unicode' set `true' on input line 4073.
 Package hyperref Info: Option `bookmarks' set `true' on input line 4073.
 Package hyperref Info: Hyper figures OFF on input line 4192.
@@ -600,9 +599,6 @@ LaTeX Info: Redefining \th on input line 33.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-Package hyperref Warning: Draft mode on.
-
 Package hyperref Info: Link coloring OFF on input line 33.
 (D:\latex\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -618,6 +614,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 33.
 LaTeX Info: Redefining \pageref on input line 33.
 LaTeX Info: Redefining \nameref on input line 33.
+ (lab-4.1.out)
+(lab-4.1.out)
+\@outlinefile=\write3
+\openout3 = `lab-4.1.out'.
+
 
 
 LaTeX Font Warning: Font shape `T2A/cmr/m/up' undefined
@@ -749,24 +750,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4] (lab-4.1.brf)
-\tf@brf=\write3
-\openout3 = `lab-4.1.brf'.
+\tf@brf=\write4
+\openout4 = `lab-4.1.brf'.
 
  [5] (lab-4.1.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+Package rerunfilecheck Info: File `lab-4.1.out' has not changed.
+(rerunfilecheck)             Checksum: E9731A6E424982872ACA6CFB1BC6BA77;943.
 Package rerunfilecheck Info: File `lab-4.1.brf' has not changed.
-(rerunfilecheck)             Checksum: A714DCC98DF4117EED37899296BEF42B;126.
+(rerunfilecheck)             Checksum: A40CA97EC188938A40338DA900EB8CB7;139.
  ) 
 Here is how much of TeX's memory you used:
- 11891 strings out of 478659
- 177995 string characters out of 2862873
- 493964 words of memory out of 3000000
- 29830 multiletter control sequences out of 15000+600000
+ 11918 strings out of 478659
+ 178306 string characters out of 2862873
+ 495749 words of memory out of 3000000
+ 29837 multiletter control sequences out of 15000+600000
  424490 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,15n,91p,1732b,351s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,14n,91p,1734b,351s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt1
 095.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\
 larm0800.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dp
@@ -779,9 +782,9 @@ ts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\Andrey\AppData\Local\MiKTe
 X\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><D:/latex/fonts/type1/public/ams
 fonts/cm/cmmi10.pfb><D:/latex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/late
 x/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on lab-4.1.pdf (5 pages, 140558 bytes).
+Output written on lab-4.1.pdf (5 pages, 147119 bytes).
 PDF statistics:
- 355 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 398 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
