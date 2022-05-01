@@ -17,18 +17,36 @@
 
 \usepackage[pdftex,unicode, bookmarks, pagebackref]{hyperref} %colorlinks,
 
+%%% определение новых команд
+\newcommand{\smb}[2]{\left(\frac{#1}{#2}\right)}
+\newcommand{\xvec}[2][n]{ (#2_1,#2_2,\ldots,#2_#1) }
+
+%%% Определение новых теорем
+\newtheorem{predl}{Предложение}[subsection]
+\newtheorem{predll}{Предложение}
+%%% Выбор стиля страниц
+\pagestyle{plain}
+
 %%% Заголовок
 \author{Создание новых команд}
 \title{Лабораторная работа №5}
 \date{06 мая 2022 г.}
 
+%Посредством \renewcommand перекрываю печать значения счетчиков section и subsection арабскими цифрами (по умолчанию) римскими цифрами
+\renewcommand{\thesection}{\Roman{section}} 
+\renewcommand{\thesubsection}{\Roman{subsection}}
 
 \begin{document} % Конец преамбулы, начало текста.
 	
 	\maketitle % печатает заголовок, имя автора и дату
 	
 	\section{Первое задание}
-	
+		\subsection{Первая подсекция}
+		\subsection{Вторая подсекция}
+		\subsection{Третья подсекция}
 	\section{Второе задание}
+		\subsection{Первая подсекция}
+		\subsection{Вторая подсекция}
+		\subsection{Третья подсекция}
 	
 \end{document} % Конец текста.
