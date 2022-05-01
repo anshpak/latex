@@ -38,10 +38,13 @@
 \renewcommand{\thesection}{\Roman{section}} 
 \renewcommand{\thesubsection}{\roman{subsection}}
 
-%Новый счетчик zadacha
-\newcounter{zadacha}[section]
-\stepcounter{zadacha}
+%Новый счетчик zadacha, он не нумерует автоматически!
+\newcounter{zadacha}
+\setcounter{zadacha}{1}
 \renewcommand{\thezadacha}{\Alph{zadacha}}
+
+%Новая команда z
+\newcommand{\z}[1]{\par}
 
 \begin{document} % Конец преамбулы, начало текста.
 	
@@ -51,16 +54,17 @@
 		\subsection{Первая подсекция первой секции}
 		\subsection{Вторая подсекция первой секции}
 		\subsection{Третья подсекция первой секции}
-		\thezadacha
-		\thezadacha{Первая задача первой секции}
-		\thezadacha{Вторая задача первой секции}
-		\thezadacha{Третья задача первой секции}
 	\section{Вторая секция}
 		\subsection{Первая подсекция второй секции}
 		\subsection{Вторая подсекция второй секции}
 		\subsection{Третья подсекция второй секции}
-		\thezadacha{Первая задача второй секции}
-		\thezadacha{Вторая задача второй секции}
-		\thezadacha{Третья задача второй секции}
+	\section{Третье задание}
+		\thezadacha \\
+		\stepcounter{zadacha}
+		\thezadacha \\
+		\stepcounter{zadacha}
+		\thezadacha \\
+		\stepcounter{zadacha}
+		\thezadacha
 	
 \end{document} % Конец текста.
