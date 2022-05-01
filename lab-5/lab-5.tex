@@ -13,9 +13,11 @@
 \geometry{top=20mm}
 \geometry{bottom=20mm}
 \geometry{left=25mm}
-\geometry{right=15mm}
+\geometry{right=25mm}
 
-\usepackage[pdftex,unicode, bookmarks, pagebackref]{hyperref} %colorlinks,
+%%% Кликабельные ссылки
+\usepackage[pdftex, unicode, bookmarks, pagebackref]{hyperref}
+% ДО этой строки можно копировать все смело!
 
 %%% определение новых команд
 \newcommand{\smb}[2]{\left(\frac{#1}{#2}\right)}
@@ -34,19 +36,31 @@
 
 %Посредством \renewcommand перекрываю печать значения счетчиков section и subsection арабскими цифрами (по умолчанию) римскими цифрами
 \renewcommand{\thesection}{\Roman{section}} 
-\renewcommand{\thesubsection}{\Roman{subsection}}
+\renewcommand{\thesubsection}{\roman{subsection}}
+
+%Новый счетчик zadacha
+\newcounter{zadacha}[section]
+\stepcounter{zadacha}
+\renewcommand{\thezadacha}{\Alph{zadacha}}
 
 \begin{document} % Конец преамбулы, начало текста.
 	
 	\maketitle % печатает заголовок, имя автора и дату
 	
-	\section{Первое задание}
-		\subsection{Первая подсекция}
-		\subsection{Вторая подсекция}
-		\subsection{Третья подсекция}
-	\section{Второе задание}
-		\subsection{Первая подсекция}
-		\subsection{Вторая подсекция}
-		\subsection{Третья подсекция}
+	\section{Первая секция}
+		\subsection{Первая подсекция первой секции}
+		\subsection{Вторая подсекция первой секции}
+		\subsection{Третья подсекция первой секции}
+		\thezadacha
+		\thezadacha{Первая задача первой секции}
+		\thezadacha{Вторая задача первой секции}
+		\thezadacha{Третья задача первой секции}
+	\section{Вторая секция}
+		\subsection{Первая подсекция второй секции}
+		\subsection{Вторая подсекция второй секции}
+		\subsection{Третья подсекция второй секции}
+		\thezadacha{Первая задача второй секции}
+		\thezadacha{Вторая задача второй секции}
+		\thezadacha{Третья задача второй секции}
 	
 \end{document} % Конец текста.
