@@ -34,31 +34,44 @@
 \title{Лабораторная работа №5}
 \date{06 мая 2022 г.}
 
-%Посредством \renewcommand перекрываю печать значения счетчиков section и subsection арабскими цифрами (по умолчанию) римскими цифрами
+% Посредством \renewcommand перекрываю печать значения счетчиков section и subsection арабскими цифрами (по умолчанию) римскими цифрами
 \renewcommand{\thesection}{\Roman{section}} 
 \renewcommand{\thesubsection}{\roman{subsection}}
 
-%Новый счетчик zadacha, он не нумерует автоматически!
+% Новый счетчик zadacha, он не нумерует автоматически!
 \newcounter{zadacha}
 \setcounter{zadacha}{1}
 \renewcommand{\thezadacha}{\Alph{zadacha}}
 
-%Новая команда z
+% Новая команда z
 \newcommand{\z}[1]{\par \refstepcounter{zadacha} \textbf{Задача} \thezadacha \text{.} \\ \textit{#1} \label{\thezadacha}}
+
+% Новая команда showMatrix
+\newcommand{\showMatrix}[3]{\begin{pmatrix}
+		#1_{11} & #1_{12} & \cdots & #1_{1 #2} \\
+		#1_{21} & #1_{22} & \cdots & #1_{2 #2} \\
+		\cdots & \cdots & \cdots & \cdots \\
+		#1_{#3 1} & #1_{#3 2} & \cdots & #1_{#3 #2}
+	\end{pmatrix}}
 
 \begin{document} % Конец преамбулы, начало текста.
 	
 	\maketitle % печатает заголовок, имя автора и дату
 	
 	\section{Первая секция}
+	
 		\subsection{Первая подсекция первой секции}
 		\subsection{Вторая подсекция первой секции}
 		\subsection{Третья подсекция первой секции}
+		
 	\section{Вторая секция}
+	
 		\subsection{Первая подсекция второй секции}
 		\subsection{Вторая подсекция второй секции}
 		\subsection{Третья подсекция второй секции}
+		
 	\section{Третье задание}
+	
 		\thezadacha \\
 		\stepcounter{zadacha}
 		\thezadacha \\
@@ -104,4 +117,13 @@
 		Та самая задача \ref{F} на 4 балла на экзамене по геометрии.
 		
 		Задача \ref{G}.
+		
+		\section{Четвертое задание}
+		
+		$$\showMatrix{a}{n}{m}$$
+		
+		$$\showMatrix{x}{n}{m}$$
+		
+		$$\showMatrix{y}{k}{l}$$
+		
 \end{document} % Конец текста.
