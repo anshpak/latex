@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  3 MAY 2022 10:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  3 MAY 2022 11:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -686,7 +686,12 @@ Underfull \hbox (badness 1117) in paragraph at lines 152--154
 \T2A/cmr/m/it/10.95 Полная ме-ха-ни-че-ская энер-гия за-мкну-той си-сте-мы
  []
 
-[2] (lab-5.aux)
+[2]
+
+Package amsthm Warning: The \qedhere command may not work correctly here on inp
+ut line 181.
+
+[3] (lab-5.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -694,13 +699,13 @@ Package rerunfilecheck Info: File `lab-5.out' has not changed.
 (rerunfilecheck)             Checksum: 36780386B2AFEC1809840F69E66640CA;2715.
  ) 
 Here is how much of TeX's memory you used:
- 11788 strings out of 478659
- 176083 string characters out of 2862873
+ 11790 strings out of 478659
+ 176100 string characters out of 2862873
  493837 words of memory out of 3000000
- 29715 multiletter control sequences out of 15000+600000
+ 29716 multiletter control sequences out of 15000+600000
  420779 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,8n,91p,404b,346s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,11n,91p,404b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
 m1095.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi60
 0\lati1095.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/
@@ -713,10 +718,11 @@ onts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk><D:/latex/fonts/type1/public/amsfon
 ts/cm/cmex10.pfb><D:/latex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/latex/
 fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/latex/fonts/type1/public/amsfonts/
 cm/cmr10.pfb><D:/latex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/latex/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on lab-5.pdf (2 pages, 137516 bytes).
+type1/public/amsfonts/cm/cmsy10.pfb><D:/latex/fonts/type1/public/amsfonts/cm/cm
+sy8.pfb>
+Output written on lab-5.pdf (3 pages, 164348 bytes).
 PDF statistics:
- 317 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
+ 346 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
  97 words of extra memory for PDF output out of 10000 (max. 10000000)
 

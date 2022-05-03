@@ -159,20 +159,43 @@
 	
 		\section{Шестое задание}
 		
-		\begin{theorem}
-			Теорема о теореме
+		\begin{theorem}[9.8 Зверович]
+			Интегралы вида
+			$$\displaystyle \int R \left( \sin , \cos \right) \; dx,$$
+			где $R$ - рациональная функция, выражаются в конечном виде (вычисляются через элементарные функции)
 		\end{theorem}
 	
-		\begin{theorem}
-			Теорема о теореме о теореме
-		\end{theorem}
+		\begin{proof}
+			В самом общем виде такой интеграл сведется к интегралу от рациональной дроби подстановкой, называемой универсальной тригонометрической подстановкой:
+			\begin{pravilo}
+				$$t = \tg{\dfrac{x}{2}}$$
+				$$x = 2 \arcctg{t} \qquad dx = \dfrac{2}{1 + t^2} \; dt$$
+				$$\cos^2{x} = \dfrac{1}{1 + \tg^2{x}} \qquad \sin^2{x} = \dfrac{tg^2{x}}{1 + \tg^2{x}}$$
+			\end{pravilo}
+			Тогда $\sin$ и $\cos$ можно представить в виде:
+			$$
+				\sin{x} = 2 \sin{\dfrac{x}{2}} \cos{\dfrac{x}{2}} = 2 \tg{\dfrac{x}{2}} \cos^2{\dfrac{x}{2}} = 2 \tg{\dfrac{x}{2}} \dfrac{1}{1 + \tg^2{x}} = \dfrac{2t}{1 + t^2}
+			$$
+			$$
+			\cos{x} = \cos^2{x} - \sin^2{x} = \dfrac{1}{1 + t^2} - \dfrac{t^2}{1 + t^2} = \dfrac{1 - t^2}{1 + t^2}
+			\qedhere
+			$$
+		\end{proof}
 	
-		\begin{lemma}
-			Лемма о лемме
-		\end{lemma}
-	
-		\begin{directive}
-			Указание о указании
+		\begin{directive}[Замечание]
+			Достаточно часто эта подстановка приводит к рациональной функции с очень высокими степенями. Поэтому иногда удобнее применять другие подстановки, которые приводят не к таким громоздким вычислениям.
 		\end{directive}
+	
+		\begin{theorem}[Интеграл биномиального дифференциала]
+			Интеграл вида
+			$$\displaystyle \int x^m \left( a + b x^n \right)^p \; dx$$
+			вычисляется в конечном виде, если целым является хотя бы одно из трех чисел:
+			$$p; \qquad q = \dfrac{m+1}{n}; \qquad p + q.$$
+		\end{theorem}
+	
+		\begin{lemma}[О рукопожатиях]
+			Сумма степеней всех вешин в произвольном графе есть удвоенное число его ребер:
+			$$\sum \limits_{v \in V \left( G \right)} \deg{v} = 2 E \left( G \right)$$
+		\end{lemma}
 		
 \end{document} % Конец текста.
