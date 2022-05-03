@@ -7,7 +7,7 @@
 \usepackage[english,russian]{babel}	% локализация и переносы
 
 %%% Дополнительная работа с математикой
-\usepackage{amsmath, amssymb, eucal}
+\usepackage{amsmath, amsthm, amssymb, eucal}
 
 \usepackage{geometry} % Простой способ задавать поля
 \geometry{top=20mm}
@@ -56,6 +56,18 @@
 
 % Новое окружение pravilo
 \newenvironment{pravilo}{\begin{center} \begin{tabular}{|p{0.6 \textwidth}|} \hline \textbf{Правило.} \em}{ \\ \hline \end{tabular} \end{center}}
+
+% Новое окружение теорема
+\theoremstyle{plain}
+\newtheorem{theorem}{Теорема}[section]
+
+% Новое окружение лемма
+\theoremstyle{plain}
+\newtheorem{lemma}{Лемма}[section]
+
+% Новое окружение указание
+\theoremstyle{remark}
+\newtheorem*{directive}{Указание}
 
 \begin{document} % Конец преамбулы, начало текста.
 	
@@ -130,6 +142,7 @@
 		$$\showMatrix{y}{k}{l}$$
 		
 		\section{Пятое задание}
+		
 		\begin{pravilo}
 			Не делайте другим то, что вы не желаете для себя, и поступайте с другими так, как хотели бы, чтобы с вами поступили.
 		\end{pravilo}
@@ -143,5 +156,23 @@
 		\begin{pravilo}
 			Темпы роста прибыли должны превышать темпы роста выручки от продажи товаров и оказания торговых услуг, а темпы роста выручки от продаж должны превышать темпы роста активов.
 		\end{pravilo}
+	
+		\section{Шестое задание}
+		
+		\begin{theorem}
+			Теорема о теореме
+		\end{theorem}
+	
+		\begin{theorem}
+			Теорема о теореме о теореме
+		\end{theorem}
+	
+		\begin{lemma}
+			Лемма о лемме
+		\end{lemma}
+	
+		\begin{directive}
+			Указание о указании
+		\end{directive}
 		
 \end{document} % Конец текста.
