@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  3 MAY 2022 11:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  6 MAY 2022 11:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -525,36 +525,35 @@ File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
 \c@predll=\count285
 \c@zadacha=\count286
 \c@theorem=\count287
-\c@lemma=\count288
 
 (D:\latex\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count289
+\l__color_backend_stack_int=\count288
 \l__pdf_internal_box=\box52
 ) (lab-5.aux)
 \openout1 = `lab-5.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Info: Redefining \th on input line 72.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Info: Redefining \th on input line 75.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -590,7 +589,7 @@ LaTeX Info: Redefining \th on input line 72.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 72.
+Package hyperref Info: Link coloring OFF on input line 75.
 (D:\latex\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -600,11 +599,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (D:\latex\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count290
+\c@section@level=\count289
 )
-LaTeX Info: Redefining \ref on input line 72.
-LaTeX Info: Redefining \pageref on input line 72.
-LaTeX Info: Redefining \nameref on input line 72.
+LaTeX Info: Redefining \ref on input line 75.
+LaTeX Info: Redefining \pageref on input line 75.
+LaTeX Info: Redefining \nameref on input line 75.
  (lab-5.out)
 (lab-5.out)
 \@outlinefile=\write3
@@ -613,96 +612,109 @@ LaTeX Info: Redefining \nameref on input line 72.
 
 
 LaTeX Font Warning: Font shape `T2A/cmr/m/up' undefined
-(Font)              using `T2A/cmr/m/n' instead on input line 75.
+(Font)              using `T2A/cmr/m/n' instead on input line 78.
 
 LaTeX Font Info:    Trying to load font information for OML+cmr on input line 7
-5.
+8.
 (D:\latex\tex/latex/base\omlcmr.fd
 File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `OML/cmr/m/up' undefined
-(Font)              using `OML/cmr/m/it' instead on input line 75.
+(Font)              using `OML/cmr/m/it' instead on input line 78.
 
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 75.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 78.
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 75.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 78.
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <6> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 75.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 78.
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 7
-5.
+8.
 (D:\latex\tex/latex/base\omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `OMS/cmr/m/up' undefined
-(Font)              using `OMS/cmr/m/n' instead on input line 75.
+(Font)              using `OMS/cmr/m/n' instead on input line 78.
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 75.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 75.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 75.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 75.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 78.
 
 (D:\latex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 75.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 78.
 
  (D:\latex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for PD1+cmr on input line 7
-5.
-LaTeX Font Info:    No file PD1cmr.fd. on input line 75.
+8.
+LaTeX Font Info:    No file PD1cmr.fd. on input line 78.
 
 
 LaTeX Font Warning: Font shape `PD1/cmr/m/up' undefined
-(Font)              using `PD1/pdf/m/n' instead on input line 75.
+(Font)              using `PD1/pdf/m/n' instead on input line 78.
 
-LaTeX Font Info:    Trying to load font information for PU+cmr on input line 75
+LaTeX Font Info:    Trying to load font information for PU+cmr on input line 78
 .
-LaTeX Font Info:    No file PUcmr.fd. on input line 75.
+LaTeX Font Info:    No file PUcmr.fd. on input line 78.
 
 LaTeX Font Warning: Font shape `PU/cmr/m/up' undefined
-(Font)              using `PU/pdf/m/n' instead on input line 75.
+(Font)              using `PU/pdf/m/n' instead on input line 78.
 
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 117.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 120.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 117.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 120.
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
 [1
 
 {C:/Users/Andrey/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 1117) in paragraph at lines 152--154
+
+LaTeX Warning: Reference `F' on page 2 undefined on input line 133.
+
+
+LaTeX Warning: Reference `G' on page 2 undefined on input line 135.
+
+
+LaTeX Warning: Reference `E' on page 2 undefined on input line 137.
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 155--157
 \T2A/cmr/m/it/10.95 Полная ме-ха-ни-че-ская энер-гия за-мкну-той си-сте-мы
  []
 
 [2]
 
 Package amsthm Warning: The \qedhere command may not work correctly here on inp
-ut line 181.
+ut line 184.
 
 [3] (lab-5.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `lab-5.out' has not changed.
 (rerunfilecheck)             Checksum: 36780386B2AFEC1809840F69E66640CA;2715.
  ) 
 Here is how much of TeX's memory you used:
- 11790 strings out of 478659
- 176100 string characters out of 2862873
- 493837 words of memory out of 3000000
- 29716 multiletter control sequences out of 15000+600000
+ 11786 strings out of 478659
+ 176071 string characters out of 2862873
+ 493617 words of memory out of 3000000
+ 29712 multiletter control sequences out of 15000+600000
  420779 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,11n,91p,404b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -720,9 +732,9 @@ fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/latex/fonts/type1/public/amsfonts/
 cm/cmr10.pfb><D:/latex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/latex/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb><D:/latex/fonts/type1/public/amsfonts/cm/cm
 sy8.pfb>
-Output written on lab-5.pdf (3 pages, 164348 bytes).
+Output written on lab-5.pdf (3 pages, 164543 bytes).
 PDF statistics:
- 346 PDF objects out of 1000 (max. 8388607)
+ 345 PDF objects out of 1000 (max. 8388607)
  22 named destinations out of 1000 (max. 500000)
  97 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -44,10 +44,11 @@
 \renewcommand{\thezadacha}{\Alph{zadacha}}
 
 % Новая команда z
-\newcommand{\z}[1]{\par \refstepcounter{zadacha} \textbf{Задача} \thezadacha \text{.} \\ \textit{#1} \label{\thezadacha}}
+\newcommand{\z}[1]{\par \refstepcounter{zadacha} \textbf{Задача} \thezadacha \text{.} \\ \textit{#1}}
 
 % Новая команда showMatrix
-\newcommand{\showMatrix}[3]{\begin{pmatrix}
+\newcommand{\showMatrix}[3]%
+	{\begin{pmatrix}
 		#1_{11} & #1_{12} & \cdots & #1_{1 #2} \\
 		#1_{21} & #1_{22} & \cdots & #1_{2 #2} \\
 		\cdots & \cdots & \cdots & \cdots \\
@@ -57,13 +58,15 @@
 % Новое окружение pravilo
 \newenvironment{pravilo}{\begin{center} \begin{tabular}{|p{0.6 \textwidth}|} \hline \textbf{Правило.} \em}{ \\ \hline \end{tabular} \end{center}}
 
+%Привет, друг :)%
+
 % Новое окружение теорема
 \theoremstyle{plain}
 \newtheorem{theorem}{Теорема}[section]
 
 % Новое окружение лемма
 \theoremstyle{plain}
-\newtheorem{lemma}{Лемма}[section]
+\newtheorem{lemma}[theorem]{Лемма}
 
 % Новое окружение указание
 \theoremstyle{remark}
