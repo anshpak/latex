@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  17 MAY 2022 17:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  17 MAY 2022 18:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -457,11 +457,7 @@ LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 2
 
 (D:\latex\tex/latex/cyrillic\t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
-
-LaTeX Warning: Label `Tab:t' multiply defined.
-
-)
+))
 \openout1 = `lab-6.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -485,7 +481,8 @@ LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Info: Redefining \th on input line 21.
- (D:\latex\tex/context/base/mkii\supp-pdf.mkii
+
+(D:\latex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count271
 \scratchdimen=\dimen147
@@ -536,6 +533,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {C:/Users/Andrey/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+
+Package hyperref Warning: Suppressing empty link on input line 41.
+
+
 Overfull \hbox (0.56537pt too wide) in paragraph at lines 41--42
 []\T2A/cmr/m/n/10.95 Параллельным си-сте-мам управ-ле-ния ба-за-ми дан-ных по-с
 вя-ще-но боль-
@@ -569,7 +570,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file D:/latex-tasks/lab-6/images/qexec-eps-conver
 ted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> 
 allowed
-<D:/latex-tasks/lab-6/images/qexec-eps-converted-to.pdf, id=137, 917.4275pt x 5
+<D:/latex-tasks/lab-6/images/qexec-eps-converted-to.pdf, id=135, 917.4275pt x 5
 23.9575pt>
 File: D:/latex-tasks/lab-6/images/qexec-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -620,7 +621,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file D:/latex-tasks/lab-6/images/sysobjectdiagram
 -eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
 sion <1.5> allowed
-<D:/latex-tasks/lab-6/images/sysobjectdiagram-eps-converted-to.pdf, id=178, 750
+<D:/latex-tasks/lab-6/images/sysobjectdiagram-eps-converted-to.pdf, id=176, 750
 .805pt x 263.98625pt>
 File: D:/latex-tasks/lab-6/images/sysobjectdiagram-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -649,7 +650,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file D:/latex-tasks/lab-6/images/sysdeploydiagram
 -eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
 sion <1.5> allowed
-<D:/latex-tasks/lab-6/images/sysdeploydiagram-eps-converted-to.pdf, id=179, 791
+<D:/latex-tasks/lab-6/images/sysdeploydiagram-eps-converted-to.pdf, id=177, 791
 .95876pt x 348.30125pt>
 File: D:/latex-tasks/lab-6/images/sysdeploydiagram-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -679,7 +680,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file D:/latex-tasks/lab-6/images/clientUCDiagram-
 eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
-<D:/latex-tasks/lab-6/images/clientUCDiagram-eps-converted-to.pdf, id=187, 480.
+<D:/latex-tasks/lab-6/images/clientUCDiagram-eps-converted-to.pdf, id=185, 480.
 79625pt x 339.2675pt>
 File: D:/latex-tasks/lab-6/images/clientUCDiagram-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -728,7 +729,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file D:/latex-tasks/lab-6/images/coordUCDiagram-e
 ps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<D:/latex-tasks/lab-6/images/coordUCDiagram-eps-converted-to.pdf, id=215, 515.9
+<D:/latex-tasks/lab-6/images/coordUCDiagram-eps-converted-to.pdf, id=213, 515.9
 275pt x 410.53375pt>
 File: D:/latex-tasks/lab-6/images/coordUCDiagram-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -770,7 +771,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file D:/latex-tasks/lab-6/images/kernelUCDiagram-
 eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
-<D:/latex-tasks/lab-6/images/kernelUCDiagram-eps-converted-to.pdf, id=234, 374.
+<D:/latex-tasks/lab-6/images/kernelUCDiagram-eps-converted-to.pdf, id=232, 374.
 39874pt x 193.72375pt>
 File: D:/latex-tasks/lab-6/images/kernelUCDiagram-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -803,19 +804,16 @@ Underfull \hbox (badness 1577) in paragraph at lines 268--268
  []
 
 [17] [18] [19] (lab-6.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `lab-6.out' has not changed.
 (rerunfilecheck)             Checksum: A86829B3D0C050EAC7488D81C5371C1D;8018.
 Package rerunfilecheck Info: File `lab-6.brf' has not changed.
 (rerunfilecheck)             Checksum: 425EAC3AEBA97F915B522033B5D96DFE;398.
  ) 
 Here is how much of TeX's memory you used:
- 10868 strings out of 478659
- 169146 string characters out of 2862873
+ 10869 strings out of 478659
+ 169149 string characters out of 2862873
  483721 words of memory out of 3000000
- 28750 multiletter control sequences out of 15000+600000
+ 28751 multiletter control sequences out of 15000+600000
  417286 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,11n,91p,2019b,453s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -835,9 +833,9 @@ ata\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk><D:/latex/fonts/t
 ype1/public/amsfonts/cm/cmmi10.pfb><D:/latex/fonts/type1/public/amsfonts/cm/cmm
 i8.pfb><D:/latex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/latex/fonts/type1
 /public/amsfonts/cm/cmr8.pfb>
-Output written on lab-6.pdf (19 pages, 411693 bytes).
+Output written on lab-6.pdf (19 pages, 411505 bytes).
 PDF statistics:
- 912 PDF objects out of 1000 (max. 8388607)
+ 911 PDF objects out of 1000 (max. 8388607)
  62 named destinations out of 1000 (max. 500000)
  231 words of extra memory for PDF output out of 10000 (max. 10000000)
 

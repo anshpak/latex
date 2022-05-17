@@ -1,0 +1,117 @@
+\documentclass[roman, 12pt]{beamer}
+
+%%% Работа с русским языком
+\usepackage{mathtext} 				% русские буквы в формулах
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage[english,russian]{babel}	% локализация и переносы
+
+%%% Дополнительная работа с математикой
+\usepackage{amsmath, amsthm, amssymb, eucal}
+
+\usepackage{geometry} % Простой способ задавать поля
+\geometry{top=20mm}
+\geometry{bottom=20mm}
+\geometry{left=25mm}
+\geometry{right=25mm}
+
+\usepackage{graphicx}
+\graphicspath{{D:/latex-tasks/lab-6/images}{images/}} % Папка с картинками
+\setlength\fboxsep{3pt} % Отступ рамки \fbox{} от рисунка
+\setlength\fboxrule{1pt} % Толщина линий рамки fbox{}
+%%% Выбор стиля страниц
+\pagestyle{plain}
+
+\usetheme{Antibes}
+%\usecolortheme{}%
+
+%%% Заголовок
+\title{Топ 5 смешариков}
+\date{17 мая 2022 г.}
+\author{Шпак А.В.}
+
+%Привет, друг :)%
+
+\begin{document} % Конец преамбулы, начало текста.
+
+	\begin{frame}
+		\titlepage
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Пятое место.}
+		
+		\begin {columns}
+		\column{0.7\textwidth}
+		\textcolor{brown}{Копатыч - садовод и огородник. Простой и приятный смешарик. Увлекался диско. Находиться в его компании - одно удовольствие!}
+		\column{0.7\textwidth}
+		\begin{figure}
+			\includegraphics[width=0.7\linewidth]{images/kopatich}
+		\end{figure}
+		\end {columns}
+		
+	\end {frame}
+	
+	\begin{frame}
+		\frametitle{Четвертое место.}
+		
+		\begin {columns}
+		\column{0.7\textwidth}
+		\begin{figure}
+			\includegraphics[width=0.7\linewidth]{images/losyash}
+		\end{figure}
+		\column{0.7\textwidth}
+		\textcolor{yellow}{Лосяш - умнейший из смешариков. Проводит опыты и любит бабочек. Дружит с Копатычем}
+		\end {columns}		
+	\end {frame}
+		
+	\begin{frame}
+		\frametitle{Третье место.}
+		
+		\begin {columns}
+		\column{0.7\textwidth}
+		\textcolor{blue}{Каркарыч, кажется, самый адекватный из всех смешариков. Реалист, мечтатель, он интеллегентен и вежлив. Обладает богатым жизненным опытом и обожает игру бильярд.}
+		\column{0.7\textwidth}
+		\begin{figure}
+			\includegraphics[width=0.7\linewidth]{images/karkarich}
+		\end{figure}
+		\end {columns}		
+		
+	\end {frame}
+			
+	\begin{frame}
+		\frametitle{Второе место.}
+		
+		\begin {columns}
+		\column{0.7\textwidth}
+		\begin{figure}
+			\includegraphics[width=0.7\linewidth]{images/ezhik}
+		\end{figure}
+		\column{0.7\textwidth}
+		\textcolor{green}{Ёжик - самый лучший друг Кроша и самый хороший смешарик. Он умный и понимающий, чуткий. Любит кактусы.}
+		\end {columns}
+		
+		\end {frame}
+	
+	\begin{frame}
+		\frametitle{Первое место.}
+		
+		\begin{block}{Победитель топа смешариков - Совунья!!}
+		\end{block}
+		
+		\begin {columns}
+		\column{0.7\textwidth}
+		\textcolor{violet}{Совунья - самый душевный, родной и добрый смешарик. Она всегда помогала другим, лечила других и не бросала в беде!}
+		\column{0.7\textwidth}
+		\begin{figure}
+			\includegraphics[width=0.7\linewidth]{images/sovunia}
+		\end{figure}
+		\end {columns}
+	
+		\end {frame}
+	
+	\begin{frame}
+		\frametitle{Конец!}
+		\end {frame}
+	
+\end{document} % Конец текста.
