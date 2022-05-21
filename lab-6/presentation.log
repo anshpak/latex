@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  17 MAY 2022 19:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  17 MAY 2022 21:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -909,11 +909,6 @@ Language: russian 2020/09/09 1.3k Russian support for the Babel system
 Package babel Info: Making " an active character on input line 124.
 Package babel Info: Default for \cyrdash is provided on input line 163.
 ))
-(D:\latex\tex/latex/amsfonts\eucal.sty
-Package: eucal 2009/06/22 v3.00 Euler Script fonts
-LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
-(Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
-)
 (D:\latex\tex/latex/beamer\beamerthemeAntibes.sty
 (D:\latex\tex/latex/beamer\beamerouterthemetree.sty)
 (D:\latex\tex/latex/beamer\beamercolorthemewhale.sty)
@@ -926,32 +921,32 @@ File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
 ) (presentation.aux)
 \openout1 = `presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 32.
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 3
-5.
+2.
 
 (D:\latex\tex/latex/cyrillic\t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    ... okay on input line 32.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -961,15 +956,15 @@ LaTeX Font Info:    ... okay on input line 35.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(71.13188pt, 221.9316pt, 71.13188pt)
-* v-part:(T,H,B)=(56.9055pt, 159.33562pt, 56.9055pt)
+* h-part:(L,W,R)=(42.67912pt, 278.83711pt, 42.67912pt)
+* v-part:(T,H,B)=(28.45274pt, 216.24113pt, 28.45274pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=221.9316pt
-* \textheight=130.88289pt
-* \oddsidemargin=-1.1381pt
-* \evensidemargin=-1.1381pt
-* \topmargin=-15.36449pt
+* \textwidth=278.83711pt
+* \textheight=187.7884pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-43.81725pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
 * \topskip=12.0pt
@@ -1008,7 +1003,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (D:\latex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 35.
+Package hyperref Info: Link coloring OFF on input line 32.
 
 (D:\latex\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1021,71 +1016,71 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count340
 )
-LaTeX Info: Redefining \ref on input line 35.
-LaTeX Info: Redefining \pageref on input line 35.
-LaTeX Info: Redefining \nameref on input line 35.
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
+LaTeX Info: Redefining \nameref on input line 32.
  (presentation.out)
 (presentation.out)
 \@outlinefile=\write5
 \openout5 = `presentation.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 35.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 32.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 35.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 32.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T2A/cmr/m/n on input line 35.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 35.
+(Font)                  OT1/cmss/m/n --> T2A/cmr/m/n on input line 32.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T2A/cmss/b/n on input line 35.
+(Font)                  OT1/cmr/bx/n --> T2A/cmss/b/n on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T2A/cmss/b/n on input line 35.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 35.
+(Font)                  OT1/cmr/bx/n --> T2A/cmss/b/n on input line 32.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T2A/cmss/m/n on input line 35.
+(Font)                  OT1/cmss/m/n --> T2A/cmss/m/n on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T2A/cmss/m/n on input line 35.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+(Font)                  OT1/cmss/bx/n --> T2A/cmss/m/n on input line 32.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T2A/cmss/m/it on input line 35.
+(Font)                  OT1/cmr/m/it --> T2A/cmss/m/it on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T2A/cmss/m/it on input line 35.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 35.
+(Font)                  OT1/cmr/bx/it --> T2A/cmss/m/it on input line 32.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 35.
+(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 35.
+(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 32.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T2A/cmss/m/n --> T2A/cmss/b/n on input line 35.
+(Font)                  T2A/cmss/m/n --> T2A/cmss/b/n on input line 32.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T2A/cmss/m/it --> T2A/cmss/b/it on input line 35.
+(Font)                  T2A/cmss/m/it --> T2A/cmss/b/it on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T2A/cmr/b/n on input line 35.
+(Font)                  OT1/cmss/b/n --> T2A/cmr/b/n on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T2A/cmss/b/n --> T2A/cmss/b/n on input line 35.
+(Font)                  T2A/cmss/b/n --> T2A/cmss/b/n on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T2A/cmss/m/n --> T2A/cmss/b/n on input line 35.
+(Font)                  T2A/cmss/m/n --> T2A/cmss/b/n on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T2A/cmss/m/it --> T2A/cmss/b/it on input line 35.
+(Font)                  T2A/cmss/m/it --> T2A/cmss/b/it on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T2A/cmtt/m/n --> T2A/cmtt/b/n on input line 35.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 35.
+(Font)                  T2A/cmtt/m/n --> T2A/cmtt/b/n on input line 32.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 32.
 LaTeX Font Info:    Encoding `T2A' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 35
+(Font)              `pureletters' in the math version `normal' on input line 32
 .
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  T2A/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 3
-5.
+2.
 LaTeX Font Info:    Encoding `T2A' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 35.
+(Font)              `pureletters' in the math version `bold' on input line 32.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  T2A/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 3
-5.
+2.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 35.
+ut line 32.
 
 (D:\latex\tex/latex/translator\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
@@ -1103,17 +1098,17 @@ Dictionary: translator-numbers-dictionary, Language: English
 (D:\latex\tex/latex/translator\translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \th on input line 35.
+LaTeX Info: Redefining \th on input line 32.
 
 (presentation.nav) [1
 
 {C:/Users/Andrey/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 53.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 52.
 
  (D:\latex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 53.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 52.
 
 
 (D:\latex\tex/latex/amsfonts\umsb.fd
@@ -1121,10 +1116,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `T2A/cmr/m/up' undefined
-(Font)              using `T2A/cmr/m/n' instead on input line 53.
+(Font)              using `T2A/cmr/m/n' instead on input line 52.
 
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 53.
+ut line 52.
 (D:\latex\tex/latex/sansmathaccent\ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
@@ -1137,7 +1132,7 @@ Package epstopdf Info: Source file: <images/kopatich.eps>
 (epstopdf)                    size: 43962 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=images/kopatich-eps-
 converted-to.pdf images/kopatich.eps>
-(epstopdf)             \includegraphics on input line 53.
+(epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1147,16 +1142,39 @@ pdfTeX warning: pdflatex.exe (file ./images/kopatich-eps-converted-to.pdf): PDF
 File: images/kopatich-eps-converted-to.pdf Graphic file (type pdf)
 <use images/kopatich-eps-converted-to.pdf>
 Package pdftex.def Info: images/kopatich-eps-converted-to.pdf  used on input li
-ne 53.
-(pdftex.def)             Requested size: 108.74551pt x 116.12259pt.
+ne 52.
+(pdftex.def)             Requested size: 117.11226pt x 125.0557pt.
 
-Overfull \hbox (31.86577pt too wide) detected at line 53
-[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+Overfull \hbox (54.62764pt too wide) detected at line 52
+[][] $[]$[][][][][][][] $[]$[][][][][][] 
  []
 
 [2
 
  <./images/kopatich-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/kopatich.eps>
+(epstopdf)                    date: 2022-05-17 18:06:27
+(epstopdf)                    size: 589254 bytes
+(epstopdf)             Output file: <images/kopatich-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-05-17 18:12:00
+(epstopdf)                    size: 43962 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/kopatich-eps-
+converted-to.pdf images/kopatich.eps>
+(epstopdf)             \includegraphics on input line 52.
+Package epstopdf Info: Output file is already uptodate.
+File: images/kopatich-eps-converted-to.pdf Graphic file (type pdf)
+<use images/kopatich-eps-converted-to.pdf>
+Package pdftex.def Info: images/kopatich-eps-converted-to.pdf  used on input li
+ne 52.
+(pdftex.def)             Requested size: 117.11226pt x 125.0557pt.
+
+Overfull \hbox (54.62764pt too wide) detected at line 52
+[][][] $[]$[][][][][][][] $[]$[][][][][] 
+ []
+
+[3
+
+]
 Package epstopdf Info: Source file: <images/losyash.eps>
 (epstopdf)                    date: 2022-05-17 18:07:03
 (epstopdf)                    size: 3841613 bytes
@@ -1165,26 +1183,39 @@ Package epstopdf Info: Source file: <images/losyash.eps>
 (epstopdf)                    size: 404277 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=images/losyash-eps-c
 onverted-to.pdf images/losyash.eps>
-(epstopdf)             \includegraphics on input line 66.
+(epstopdf)             \includegraphics on input line 65.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./images/losyash-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/losyash-eps-converted-to.pdf, id=30, 803.0pt x 791.95876pt>
+<images/losyash-eps-converted-to.pdf, id=35, 803.0pt x 791.95876pt>
 File: images/losyash-eps-converted-to.pdf Graphic file (type pdf)
 <use images/losyash-eps-converted-to.pdf>
 Package pdftex.def Info: images/losyash-eps-converted-to.pdf  used on input lin
-e 66.
-(pdftex.def)             Requested size: 108.74551pt x 107.24817pt.
-
-Overfull \hbox (31.86577pt too wide) detected at line 66
-[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
- []
-
-[3
+e 65.
+(pdftex.def)             Requested size: 83.65198pt x 82.49953pt.
+[4
 
  <./images/losyash-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/losyash.eps>
+(epstopdf)                    date: 2022-05-17 18:07:03
+(epstopdf)                    size: 3841613 bytes
+(epstopdf)             Output file: <images/losyash-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-05-17 18:12:10
+(epstopdf)                    size: 404277 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/losyash-eps-c
+onverted-to.pdf images/losyash.eps>
+(epstopdf)             \includegraphics on input line 65.
+Package epstopdf Info: Output file is already uptodate.
+File: images/losyash-eps-converted-to.pdf Graphic file (type pdf)
+<use images/losyash-eps-converted-to.pdf>
+Package pdftex.def Info: images/losyash-eps-converted-to.pdf  used on input lin
+e 65.
+(pdftex.def)             Requested size: 83.65198pt x 82.49953pt.
+ [5
+
+]
 Package epstopdf Info: Source file: <images/karkarich.eps>
 (epstopdf)                    date: 2022-05-17 18:07:01
 (epstopdf)                    size: 2503475 bytes
@@ -1193,26 +1224,49 @@ Package epstopdf Info: Source file: <images/karkarich.eps>
 (epstopdf)                    size: 78582 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=images/karkarich-eps
 -converted-to.pdf images/karkarich.eps>
-(epstopdf)             \includegraphics on input line 80.
+(epstopdf)             \includegraphics on input line 79.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./images/karkarich-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/karkarich-eps-converted-to.pdf, id=39, 602.25pt x 687.56876pt>
+<images/karkarich-eps-converted-to.pdf, id=49, 602.25pt x 687.56876pt>
 File: images/karkarich-eps-converted-to.pdf Graphic file (type pdf)
 <use images/karkarich-eps-converted-to.pdf>
 Package pdftex.def Info: images/karkarich-eps-converted-to.pdf  used on input l
-ine 80.
-(pdftex.def)             Requested size: 108.74551pt x 124.14522pt.
+ine 79.
+(pdftex.def)             Requested size: 107.3524pt x 122.561pt.
 
-Overfull \hbox (31.86577pt too wide) detected at line 80
+Overfull \hbox (54.62764pt too wide) detected at line 79
+[][] $[]$[][][][][][][] $[]$[][][][][][] 
+ []
+
+[6
+
+ <./images/karkarich-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/karkarich.eps>
+(epstopdf)                    date: 2022-05-17 18:07:01
+(epstopdf)                    size: 2503475 bytes
+(epstopdf)             Output file: <images/karkarich-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-05-17 18:12:17
+(epstopdf)                    size: 78582 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/karkarich-eps
+-converted-to.pdf images/karkarich.eps>
+(epstopdf)             \includegraphics on input line 79.
+Package epstopdf Info: Output file is already uptodate.
+File: images/karkarich-eps-converted-to.pdf Graphic file (type pdf)
+<use images/karkarich-eps-converted-to.pdf>
+Package pdftex.def Info: images/karkarich-eps-converted-to.pdf  used on input l
+ine 79.
+(pdftex.def)             Requested size: 107.3524pt x 122.561pt.
+
+Overfull \hbox (54.62764pt too wide) detected at line 79
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
-[4
+[7
 
- <./images/karkarich-eps-converted-to.pdf>]
+]
 Package epstopdf Info: Source file: <images/ezhik.eps>
 (epstopdf)                    date: 2022-05-17 18:07:03
 (epstopdf)                    size: 2193552 bytes
@@ -1221,26 +1275,39 @@ Package epstopdf Info: Source file: <images/ezhik.eps>
 (epstopdf)                    size: 82477 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=images/ezhik-eps-con
 verted-to.pdf images/ezhik.eps>
-(epstopdf)             \includegraphics on input line 94.
+(epstopdf)             \includegraphics on input line 93.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./images/ezhik-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/ezhik-eps-converted-to.pdf, id=48, 803.0pt x 451.6875pt>
+<images/ezhik-eps-converted-to.pdf, id=64, 803.0pt x 451.6875pt>
 File: images/ezhik-eps-converted-to.pdf Graphic file (type pdf)
 <use images/ezhik-eps-converted-to.pdf>
 Package pdftex.def Info: images/ezhik-eps-converted-to.pdf  used on input line 
-94.
-(pdftex.def)             Requested size: 108.74551pt x 61.16815pt.
-
-Overfull \hbox (31.86577pt too wide) detected at line 94
-[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
- []
-
-[5
+93.
+(pdftex.def)             Requested size: 111.53526pt x 62.73268pt.
+[8
 
  <./images/ezhik-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/ezhik.eps>
+(epstopdf)                    date: 2022-05-17 18:07:03
+(epstopdf)                    size: 2193552 bytes
+(epstopdf)             Output file: <images/ezhik-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-05-17 18:12:24
+(epstopdf)                    size: 82477 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/ezhik-eps-con
+verted-to.pdf images/ezhik.eps>
+(epstopdf)             \includegraphics on input line 93.
+Package epstopdf Info: Output file is already uptodate.
+File: images/ezhik-eps-converted-to.pdf Graphic file (type pdf)
+<use images/ezhik-eps-converted-to.pdf>
+Package pdftex.def Info: images/ezhik-eps-converted-to.pdf  used on input line 
+93.
+(pdftex.def)             Requested size: 111.53526pt x 62.73268pt.
+ [9
+
+]
 Package epstopdf Info: Source file: <images/sovunia.eps>
 (epstopdf)                    date: 2022-05-17 18:06:26
 (epstopdf)                    size: 552783 bytes
@@ -1255,20 +1322,178 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./images/sovunia-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/sovunia-eps-converted-to.pdf, id=57, 301.125pt x 301.125pt>
+<images/sovunia-eps-converted-to.pdf, id=78, 301.125pt x 301.125pt>
 File: images/sovunia-eps-converted-to.pdf Graphic file (type pdf)
 <use images/sovunia-eps-converted-to.pdf>
 Package pdftex.def Info: images/sovunia-eps-converted-to.pdf  used on input lin
 e 111.
-(pdftex.def)             Requested size: 108.74551pt x 108.74492pt.
+(pdftex.def)             Requested size: 136.62898pt x 136.6353pt.
 
-Overfull \hbox (31.86577pt too wide) detected at line 111
-[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+Overfull \hbox (26.74648pt too wide) detected at line 111
+[][] $[]$[][][][][][][] $[]$[][][][][][] 
  []
 
-[6
+[10
 
- <./images/sovunia-eps-converted-to.pdf>] [7
+ <./images/sovunia-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/sovunia.eps>
+(epstopdf)                    date: 2022-05-17 18:06:26
+(epstopdf)                    size: 552783 bytes
+(epstopdf)             Output file: <images/sovunia-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-05-17 18:09:17
+(epstopdf)                    size: 24123 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/sovunia-eps-c
+onverted-to.pdf images/sovunia.eps>
+(epstopdf)             \includegraphics on input line 111.
+Package epstopdf Info: Output file is already uptodate.
+File: images/sovunia-eps-converted-to.pdf Graphic file (type pdf)
+<use images/sovunia-eps-converted-to.pdf>
+Package pdftex.def Info: images/sovunia-eps-converted-to.pdf  used on input lin
+e 111.
+(pdftex.def)             Requested size: 136.62898pt x 136.6353pt.
+
+Overfull \hbox (26.74648pt too wide) detected at line 111
+[][][] $[]$[][][][][][][] $[]$[][][][][] 
+ []
+
+[11
+
+]
+Package epstopdf Info: Source file: <images/kokoriki.eps>
+(epstopdf)                    date: 2022-05-17 20:31:28
+(epstopdf)                    size: 255256 bytes
+(epstopdf)             Output file: <images/kokoriki-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-05-17 20:33:09
+(epstopdf)                    size: 42213 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/kokoriki-eps-
+converted-to.pdf images/kokoriki.eps>
+(epstopdf)             \includegraphics on input line 129.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./images/kokoriki-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<images/kokoriki-eps-converted-to.pdf, id=92, 271.0125pt x 152.57pt>
+File: images/kokoriki-eps-converted-to.pdf Graphic file (type pdf)
+<use images/kokoriki-eps-converted-to.pdf>
+Package pdftex.def Info: images/kokoriki-eps-converted-to.pdf  used on input li
+ne 129.
+(pdftex.def)             Requested size: 195.18512pt x 109.88522pt.
+
+Overfull \vbox (16.935pt too high) detected at line 129
+ []
+
+[12
+
+ <./images/kokoriki-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/kokoriki.eps>
+(epstopdf)                    date: 2022-05-17 20:31:28
+(epstopdf)                    size: 255256 bytes
+(epstopdf)             Output file: <images/kokoriki-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-05-17 20:33:09
+(epstopdf)                    size: 42213 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/kokoriki-eps-
+converted-to.pdf images/kokoriki.eps>
+(epstopdf)             \includegraphics on input line 129.
+Package epstopdf Info: Output file is already uptodate.
+File: images/kokoriki-eps-converted-to.pdf Graphic file (type pdf)
+<use images/kokoriki-eps-converted-to.pdf>
+Package pdftex.def Info: images/kokoriki-eps-converted-to.pdf  used on input li
+ne 129.
+(pdftex.def)             Requested size: 195.18512pt x 109.88522pt.
+
+Overfull \vbox (16.935pt too high) detected at line 129
+ []
+
+[13
+
+]
+Package epstopdf Info: Source file: <images/kokoriki.eps>
+(epstopdf)                    date: 2022-05-17 20:31:28
+(epstopdf)                    size: 255256 bytes
+(epstopdf)             Output file: <images/kokoriki-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-05-17 20:33:09
+(epstopdf)                    size: 42213 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/kokoriki-eps-
+converted-to.pdf images/kokoriki.eps>
+(epstopdf)             \includegraphics on input line 129.
+Package epstopdf Info: Output file is already uptodate.
+File: images/kokoriki-eps-converted-to.pdf Graphic file (type pdf)
+<use images/kokoriki-eps-converted-to.pdf>
+Package pdftex.def Info: images/kokoriki-eps-converted-to.pdf  used on input li
+ne 129.
+(pdftex.def)             Requested size: 195.18512pt x 109.88522pt.
+
+Overfull \vbox (16.935pt too high) detected at line 129
+ []
+
+[14
+
+]
+Package epstopdf Info: Source file: <images/kokoriki.eps>
+(epstopdf)                    date: 2022-05-17 20:31:28
+(epstopdf)                    size: 255256 bytes
+(epstopdf)             Output file: <images/kokoriki-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-05-17 20:33:09
+(epstopdf)                    size: 42213 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/kokoriki-eps-
+converted-to.pdf images/kokoriki.eps>
+(epstopdf)             \includegraphics on input line 129.
+Package epstopdf Info: Output file is already uptodate.
+File: images/kokoriki-eps-converted-to.pdf Graphic file (type pdf)
+<use images/kokoriki-eps-converted-to.pdf>
+Package pdftex.def Info: images/kokoriki-eps-converted-to.pdf  used on input li
+ne 129.
+(pdftex.def)             Requested size: 195.18512pt x 109.88522pt.
+
+Overfull \vbox (16.935pt too high) detected at line 129
+ []
+
+[15
+
+]
+Package epstopdf Info: Source file: <images/kokoriki.eps>
+(epstopdf)                    date: 2022-05-17 20:31:28
+(epstopdf)                    size: 255256 bytes
+(epstopdf)             Output file: <images/kokoriki-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-05-17 20:33:09
+(epstopdf)                    size: 42213 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/kokoriki-eps-
+converted-to.pdf images/kokoriki.eps>
+(epstopdf)             \includegraphics on input line 129.
+Package epstopdf Info: Output file is already uptodate.
+File: images/kokoriki-eps-converted-to.pdf Graphic file (type pdf)
+<use images/kokoriki-eps-converted-to.pdf>
+Package pdftex.def Info: images/kokoriki-eps-converted-to.pdf  used on input li
+ne 129.
+(pdftex.def)             Requested size: 195.18512pt x 109.88522pt.
+
+Overfull \vbox (16.935pt too high) detected at line 129
+ []
+
+[16
+
+]
+Package epstopdf Info: Source file: <images/kokoriki.eps>
+(epstopdf)                    date: 2022-05-17 20:31:28
+(epstopdf)                    size: 255256 bytes
+(epstopdf)             Output file: <images/kokoriki-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-05-17 20:33:09
+(epstopdf)                    size: 42213 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/kokoriki-eps-
+converted-to.pdf images/kokoriki.eps>
+(epstopdf)             \includegraphics on input line 129.
+Package epstopdf Info: Output file is already uptodate.
+File: images/kokoriki-eps-converted-to.pdf Graphic file (type pdf)
+<use images/kokoriki-eps-converted-to.pdf>
+Package pdftex.def Info: images/kokoriki-eps-converted-to.pdf  used on input li
+ne 129.
+(pdftex.def)             Requested size: 195.18512pt x 109.88522pt.
+
+Overfull \vbox (16.935pt too high) detected at line 129
+ []
+
+[17
 
 ]
 \tf@nav=\write6
@@ -1288,19 +1513,19 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23843 strings out of 478659
- 450254 string characters out of 2862873
- 715049 words of memory out of 3000000
- 41398 multiletter control sequences out of 15000+600000
+ 23900 strings out of 478659
+ 451662 string characters out of 2862873
+ 715958 words of memory out of 3000000
+ 41437 multiletter control sequences out of 15000+600000
  415258 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,8n,122p,418b,512s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass1
 200.pk> <C:\Users\Andrey\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\
 lass1728.pk>
-Output written on presentation.pdf (7 pages, 659382 bytes).
+Output written on presentation.pdf (17 pages, 714685 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 227 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
